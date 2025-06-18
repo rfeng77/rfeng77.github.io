@@ -8,8 +8,8 @@ bkimage: '/images/image1.jpg'
 
 author:
   name: 'Ruohan (Fleur) Feng'
-  email: ruohan.feng@email.com
-  linkedin_username: www.linkedin.com/in/ruohan-feng-138b59213
+  email: rfeng68@gatech.edu
+  linkedin_username: ruohan-feng-138b59213
 
 # Build settings
 destination: _site
