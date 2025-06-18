@@ -1,22 +1,15 @@
 # Site settings
 title: Ruohan (Fleur) Feng
-description: 'CV'
-url: 'https://www.zuehlke.cloud'
+description: 'Cognitive Neuroscience · Psychology · Research Scientist'
+url: 'rfeng77.github.io'
 baseurl: ''
-profilepic: '/images/Ruohan FENG photo.jpeg.jpg'
-bkimage: '/images/bk1.jpg'
-google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
+profilepic: '/images/Ruohan FENG photo.jpeg'
+bkimage: '/images/image1.jpg'
 
 author:
-  name: 'Thomas Zühlke'
-  email: thomas@zuehlke.cloud
-  mastodon: tzuehlke@mstdn.social
-  twitter_username: thomzuehlke
-#  facebook_username: joshgerdes
-  github_username:  tzuehlke
-  linkedin_username:  thomas-zühlke-889182165
-  meetup_name: Azure-Meetup-Rostock-MV
+  name: 'Ruohan (Fleur) Feng'
+  email: ruohan.feng@email.com
+  linkedin_username: www.linkedin.com/in/ruohan-feng-138b59213
 
 # Build settings
 destination: _site
