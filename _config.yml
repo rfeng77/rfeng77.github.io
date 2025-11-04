@@ -2,19 +2,22 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: Ruohan (Fleur) Feng
 first_name: Ruohan
-middle_name: 
+middle_name:
 last_name: Feng
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Ph.D. candidate in Cognition & Brain Science at Georgia Tech. 
+  Researching emotional/mental disorder, Cognitive Control and Brain Signal Decoding.
 footer_text: >
+  © 2025 Ruohan Feng — Georgia Tech | 
+  Cognitive Neuroscience · Mental Health · Machine Learning
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: Decoding Brain Signal, Mental Health, Emotional Disorder, Decision Making # add your own keywords or leave empty
+keywords: # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
