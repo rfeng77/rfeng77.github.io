@@ -1,8 +1,9 @@
-name: Build and Deploy Jekyll
+name: Build and Deploy Jekyll (GitHub Pages)
+
 on:
   push:
     branches: [ main ]
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -11,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -20,18 +21,17 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.3'
-          bundler-cache: true
+      # 初始化 GitHub Pages（官方动作，会自动处理 Ruby/Jekyll 环境）
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
 
-      - name: Install deps
-        run: |
-          bundle install
-      - name: Build site
-        run: |
-          bundle exec jekyll build -d _site
+      # 直接用官方的 Jekyll 构建器，不用自己装 Ruby/Bundler
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
