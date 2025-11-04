@@ -13,11 +13,11 @@ profile:
     <p>Atlanta, GA, USA</p>
     <p><a href="mailto:rfeng77@gatech.edu">rfeng77@gatech.edu</a></p>
 
-selected_papers: true
+selected_papers: false
 social: true 
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 5
 
