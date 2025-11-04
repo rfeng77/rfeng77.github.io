@@ -21,10 +21,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      # ① 装系统依赖：ImageMagick（提供 convert 命令）
+      - name: Install system deps
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y imagemagick
+
+      # ② 装 Python 与 Jupyter（给 jekyll-jupyter-notebook 用）
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Jupyter
+        run: pip install --no-cache-dir jupyter
+
+      # ③ Ruby + Bundler 构建
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          # al-folio 在 Ruby 3.1/3.2/3.3 都能跑；不行就换 3.2 再试
           ruby-version: '3.3'
           bundler-cache: true
 
@@ -36,8 +50,7 @@ jobs:
       - name: Build site with Jekyll
         env:
           JEKYLL_ENV: production
-        run: |
-          bundle exec jekyll build -d _site
+        run: bundle exec jekyll build -d _site
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
