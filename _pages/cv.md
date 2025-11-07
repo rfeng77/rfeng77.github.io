@@ -1,13 +1,12 @@
 ---
 layout: page
-title: "CV"
+title: ""    # ✅ 清空标题，这样不会自动生成 "CV"
 permalink: /cv/
 nav: true
 toc: false
 cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 ---
 
-<!-- ===== 左侧粘性目录 + 右侧正文 的两列布局 ===== -->
 <style>
   .cv-grid{display:grid;grid-template-columns:280px 1fr;gap:2rem}
   .cv-aside{position:sticky;top:80px;align-self:start;max-height:calc(100vh - 100px);overflow:auto;padding-right:.5rem}
@@ -19,13 +18,10 @@ cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 </style>
 
 <div class="cv-grid">
-  <!-- 左侧：目录 -->
   <aside class="cv-aside">
-    <h2 style="margin:0 0 .75rem 0; color: var(--global-theme-color,#a64ac9);">Ruohan (Fleur) Feng</h2>
     {% include toc.html html=content sanitize=true h_min=2 h_max=3 ordered=false class="toc" %}
   </aside>
 
-  <!-- 右侧：正文 -->
   <main>
 
   <div style="display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap;">
