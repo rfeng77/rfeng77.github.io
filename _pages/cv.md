@@ -3,20 +3,16 @@ layout: page
 title: "CV"
 permalink: /cv/
 nav: true
-# 开启侧边目录
 toc: true
 toc_sticky: true
 toc_label: "Ruohan (Fleur) Feng"
 cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 ---
 
-
-<!-- 顶部标题区：第一行“CV”，第二行名字 + 右侧 PDF 链接按钮 -->
-# CV
-
+<!-- ✅ 不要写 # CV，否则会生成重复标题并干扰 TOC -->
 <div style="display:flex; align-items:center; justify-content:space-between; gap:1rem; flex-wrap:wrap;">
-  <h2 style="margin:0;">Ruohan (Fleur) Feng</h2>
-  <a href="/assets/Feng_Ruohan_CV.pdf" class="btn btn--primary" style="white-space:nowrap;">
+  <h1 style="margin:0;">Ruohan (Fleur) Feng</h1>
+  <a href="/assets/Ruohan_Feng_CV.pdf" class="btn btn--primary" style="white-space:nowrap;">
     Download PDF
   </a>
 </div>
