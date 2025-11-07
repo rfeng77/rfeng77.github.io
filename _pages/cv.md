@@ -1,10 +1,4 @@
-
 ---
-<p style="opacity:.6">DEBUG:
-commit {{ site.github.build_revision | slice: 0,7 }},
-cv sections = {{ site.data.cv | size }},
-first = {{ site.data.cv[0].title }}</p>
-
 layout: cv
 permalink: /cv/
 title: CV
@@ -15,3 +9,10 @@ description: This is a description of the page. You can modify it in '_pages/cv.
 toc:
   sidebar: left
 ---
+
+<p style="opacity:.6">
+DEBUG:
+commit {{ site.github.build_revision | slice: 0,7 }},
+cv sections = {{ site.data.cv | size }},
+first = {{ site.data.cv[0].title }}
+</p>
