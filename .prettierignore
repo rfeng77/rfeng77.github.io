@@ -14,3 +14,4 @@ _scripts/*
 .github/workflows/**
 _pages/about.md
 _data/navigation.yml
+_pages/publications.md
