@@ -3,12 +3,19 @@ layout: page
 title: "CV"
 permalink: /cv/
 nav: true
+# 左侧目录（al-folio 支持）
+toc:
+  sidebar: left
 ---
 
-# Ruohan (Fleur) Feng
-
-Atlanta, GA, USA • rfeng68@gatech.edu  
-**Research Areas:** Cognitive flexibility, Emotion regulation, EEG/fMRI, Mind-wandering, Mind–body interventions, ML for neuroimaging
+<div style="display:flex; align-items:center; gap:1rem; flex-wrap:wrap; margin-bottom:0.5rem;">
+  <img src="/assets/img/prof_pic-1400.webp" alt="profile" style="width:92px; height:92px; object-fit:cover; border-radius:50%;">
+  <div>
+    <h1 style="margin:0;">Ruohan (Fleur) Feng</h1>
+    <div>Atlanta, GA, USA · <a href="mailto:rfeng68@gatech.edu">rfeng68@gatech.edu</a></div>
+    <div><strong>Research Areas:</strong> Cognitive flexibility · Emotion regulation · EEG/fMRI · Mind-wandering · Mind–body interventions · ML for neuroimaging</div>
+  </div>
+</div>
 
 ---
 
@@ -17,13 +24,13 @@ Atlanta, GA, USA • rfeng68@gatech.edu
 Advisor: Paul Verhaeghen, Ph.D.
 
 **Minor in Computer Science (in progress)**, Georgia Institute of Technology — *2025–2027 (planned)*  
-Coursework: Statistics I/II, Computational Data Analysis, Data & Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
+*Coursework:* Statistics I/II, Computational Data Analysis, Data & Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
 
 **M.S. in Clinical Mental Health Counseling**, Syracuse University — *2019–2022*  
-Coursework: Research Methods, Theories of Counseling, Group Work, Foundations of MHC, Crisis Counseling, Psychological Diagnosis, Treatment & Psychopharmacology, Internship
+*Coursework:* Research Methods, Theories of Counseling, Group Work, Foundations of MHC, Crisis Counseling, Psychological Diagnosis, Treatment & Psychopharmacology, Internship
 
 **B.S. (Honors) in Applied Psychology**, Hong Kong Baptist University (Zhuhai/HK) — *2014–2018*  
-Dissertation: *The Effect of Anxiety Sensitivity… on GAD Tendency in Chinese College Students*
+*Dissertation:* *The Effect of Anxiety Sensitivity… on GAD Tendency in Chinese College Students*
 
 ---
 
@@ -71,13 +78,13 @@ Dissertation: *The Effect of Anxiety Sensitivity… on GAD Tendency in Chinese C
 
 ## Work Experience
 - **Research Coordinator**, SELF Regulation Lab, Syracuse University — *2022–2023*  
-Supervisor: Dr. Rachel Razza; organized & analyzed 200+ datapoints (Inner Strength Project); EEG protocols/pipelines  
+  Supervisor: Dr. Rachel Razza; organized & analyzed 200+ datapoints (Inner Strength Project); EEG protocols/pipelines  
 - **Research Assistant**, Institute of Economics of Education, Peking University — *2022–2023*  
-Longitudinal evaluation with behavioral & EEG data  
+  Longitudinal evaluation with behavioral & EEG data  
 - **Research Assistant**, P.I.P. Lab, Ohio University — *2021–2022*  
-Meta-analysis on LGBTQ inclusiveness & online counseling  
+  Meta-analysis on LGBTQ inclusiveness & online counseling  
 - **Research Assistant**, Mind-Body Lab, Syracuse University — *2021–2022*  
-MSQ dataset (N=2,910); co-authored in *Mindfulness*; TSST & physiology
+  MSQ dataset (N=2,910); co-authored in *Mindfulness*; TSST & physiology
 
 ---
 
@@ -92,3 +99,9 @@ MSQ dataset (N=2,910); co-authored in *Mindfulness*; TSST & physiology
 
 ## Academic Service
 - **Coordinator**, Brown Bag Series — School of Psychology, Georgia Tech — *2024 Fall – 2025 Spring*
+
+---
+
+<div style="font-size:0.95rem; opacity:0.8;">
+Tip: This page uses a left sidebar TOC for quick navigation. Export to PDF via your browser’s “Print → Save as PDF”.
+</div>
