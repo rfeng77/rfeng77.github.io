@@ -4,10 +4,10 @@ title: "CV"
 permalink: /cv/
 nav: true
 
-# 用主题内建 TOC；不要再 include toc.html
+# 使用主题内置 TOC（不要 include toc.html）
 toc: true
 toc_sticky: true
-toc_label: ""          # 隐藏 TOC 标题
+toc_label: ""               # 隐藏 TOC 标题文本
 cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 ---
 
@@ -22,25 +22,30 @@ Atlanta, GA, USA · <a href="mailto:rfeng68@gatech.edu">rfeng68@gatech.edu</a>
 
 ---
 
-<!-- ===== 样式：把主题 TOC 挪到左侧，只显示 H2/H3，并隐藏 H1 ===== -->
+<!-- ===== 样式：把主题 TOC 放到左侧，只展示 H2/H3，并隐藏 H1项与标题 ===== -->
 <style>
 /* 隐藏 TOC 标题行 */
 #toc .toc-title, .toc .toc-title, .side__toc-title { display:none !important; }
-/* 不显示 H1 项（双保险） */
+/* 不显示 H1（双保险） */
 #toc .toc-h1, .toc .toc-h1 { display:none !important; }
 /* 目录项样式微调 */
 #toc a, .toc a { display:block; padding:.25rem 0; font-size:1.05rem; line-height:1.45; }
-/* 大屏做两列布局，把 TOC 放左侧并粘住 */
+
+/* 大屏两列：左侧粘性 TOC，右侧正文 */
 @media (min-width: 992px){
-  .page{ display:grid; grid-template-columns:280px 1fr; gap:2rem; }
-  .page nav#toc, .page .toc{
-    position:sticky; top:80px; align-self:start;
-    max-height:calc(100vh - 100px); overflow:auto; padding-right:.5rem;
+  .page { display:grid; grid-template-columns:280px 1fr; gap:2rem; }
+  .page nav#toc, .page .toc {
+    position: sticky; top: 80px; align-self: start;
+    max-height: calc(100vh - 100px); overflow: auto; padding-right: .5rem;
   }
 }
-/* 小屏把 TOC 放到正文上方一条分隔 */
+/* 小屏：TOC 在正文上方，加分隔线 */
 @media (max-width: 991.98px){
-  .page nav#toc, .page .toc{ margin-bottom:1rem; border-bottom:1px solid var(--global-divider-color,rgba(127,127,127,.25)); padding-bottom:.5rem; }
+  .page nav#toc, .page .toc {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--global-divider-color, rgba(127,127,127,.25));
+    padding-bottom: .5rem;
+  }
 }
 </style>
 
