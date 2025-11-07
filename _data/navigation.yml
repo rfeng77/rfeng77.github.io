@@ -1,21 +1,20 @@
-- title: "projects"
-  url: /projects/
-  children:
-    - title: "Mind-wandering & Vigilance"
-      url: /projects/#mind-wandering-vigilance
-    - title: "Counter Emotion Regulation"
-      url: /projects/#counter-emotion-regulation
-    - title: "Controllability × Reward"
-      url: /projects/#controllability-reward
-    - title: "MBIs in Older Adults"
-      url: /projects/#mbis-older-adults
+main:
+  - title: "about"
+    url: "/"
+  - title: "CV"
+    url: "/cv/"
+    
+  - title: "publications"
+    url: "/publications/"
 
-
-- title: "publications"
-  url: /publications/
-
-- title: "teaching"
-  url: /teaching/
-
-- title: "cv"
-  url: /cv/
+  - title: "projects"
+    url: "/projects/"
+    children:
+      - title: "Mind-wandering & Vigilance"
+        url: "/projects/#mind-wandering-vigilance"
+      - title: "Counter Emotion Regulation"
+        url: "/projects/#counter-emotion-regulation"
+      - title: "Controllability × Reward"
+        url: "/projects/#controllability-reward"
+      - title: "MBIs in Older Adults"
+        url: "/projects/#mbis-older-adults"
