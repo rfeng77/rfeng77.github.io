@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: /assets/img/prof_pic.jpg   # 确保文件在 assets/img 下
+  image: prof_pic.jpg  
   image_circular: false
   more_info: >
     <p>School of Psychology, Georgia Tech</p>
