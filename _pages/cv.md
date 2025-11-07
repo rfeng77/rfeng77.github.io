@@ -1,18 +1,173 @@
 ---
-layout: cv
-permalink: /cv/
+layout: page
 title: CV
+permalink: /cv/
 nav: true
 nav_order: 5
-cv_pdf: example_pdf.pdf # you can also use external links here
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
+cv_pdf: example_pdf.pdf
 toc:
   sidebar: left
+
+# 把你的简历数据直接放这（缩进要正确）
+cv:
+  - title: General Information
+    type: map
+    contents:
+      - name: Full Name
+        value: Ruohan (Fleur) Feng
+      - name: Email
+        value: rfeng68@gatech.edu
+      - name: Location
+        value: Atlanta, GA, USA
+      - name: Research Areas
+        value: Cognitive flexibility, Emotion regulation, EEG/fMRI, Mind-wandering, Mind-body interventions, ML for neuroimaging
+
+  - title: Education
+    type: time_table
+    contents:
+      - title: Ph.D. in Cognition & Brain Science
+        institution: Georgia Institute of Technology, School of Psychology
+        year: 2023–present
+        description:
+          - Advisor — Paul Verhaeghen, Ph.D.
+      - title: Minor in Computer Science (in progress)
+        institution: Georgia Institute of Technology
+        year: 2025–2027 (planned)
+        description:
+          - Coursework — Statistics I/II, Computational Data Analysis, Data and Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
+      - title: M.S. in Clinical Mental Health Counseling
+        institution: Syracuse University, Syracuse, USA
+        year: 2019–2022
+        description:
+          - Coursework — Research Methods, Theories of Counseling, Group Work in Counseling, Foundations of Mental Health Counseling, Crisis Counseling, Psychological Diagnosis, Treatment and Psychopharmacology, Internship
+      - title: B.S. (Honors) in Applied Psychology
+        institution: Hong Kong Baptist University, Zhuhai/Hong Kong, China
+        year: 2014–2018
+        description:
+          - Coursework — Experimental Psychology, Statistical Theory, Computer-Aided Data Analysis, Counseling Psychology, Cognitive Psychology, Psychological Assessment and Testing, Abnormal Psychology
+          - Dissertation — "The Effect of Anxiety Sensitivity and Its Lower-order Anxiety Sensitivity Factors on Generalized Anxiety Disorder Tendency in Chinese College Students"
+
+  - title: Skills
+    type: list
+    contents:
+      - "<b><i>Programming & Computational Tools:</i></b> R, Python, MATLAB, SQL, GitHub, Java, LaTeX, PsychoPy, SPSS, RevMan, Qualtrics, Tableau, Microsoft Excel"
+      - "<b><i>Neuroimaging Modalities:</i></b> fMRI, sMRI, EEG"
+      - "<b><i>Neuroimaging Analysis Toolkits:</i></b> FSL, FreeSurfer, ANTs, AFNI, MRIQC, fMRIPrep, Nipype, GLMsingle, GingerALE, SDM, MNE"
+      - "<b><i>Quantitative & Modeling Expertise:</i></b> Statistical modeling; Machine learning; Computational modeling (e.g., Bayesian inference, latent growth models); Advanced statistical methods (e.g., SEM, multilevel modeling, time-varying effect modeling); Psychometric analysis; Experimental design; Data visualization; Signal processing"
+      - "<b><i>Research & Communication:</i></b> Scientific writing; Research communication; Public speaking; Data interpretation and presentation"
+      - "<b><i>Languages:</i></b> Chinese (native), English (fluent), Japanese (basic)"
+
+  - title: Peer-reviewed Publications
+    type: list
+    contents:
+      - "<b>Ou, Y.</b>, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., <b>Feng, R.</b>, Sun, F., & Wu, J. (2025). The application of the BERTopic model in natural language processing: In-depth text topic modeling. <i>Proceedings of the 2025 5th International Conference on Consumer Electronics and Computer Engineering (ICCECE)</i>, 793–796. IEEE. <a href='https://doi.org/10.1109/ICCECE65250.2025.10984639' target='_blank'>https://doi.org/10.1109/ICCECE65250.2025.10984639</a>"
+      - "<b>Feng, R.</b>, Mishra, V., Hao, X., & Verhaeghen, P. (2024). The association between mindfulness, psychological flexibility, and rumination in predicting mental health and well-being among university students using machine learning and structural equation modeling. <i>Machine Learning with Applications</i>, 100614. <a href='https://doi.org/10.1016/j.mlwa.2024.100614' target='_blank'>https://doi.org/10.1016/j.mlwa.2024.100614</a>"
+      - "Razza, R., Liu, Q., <b>Feng, R.</b>, Hao, X., Kirkman, K., & Merrin, G. J. (in press). Cultivating adolescents’ self-compassion through mindfulness: The role of self-regulation at both the individual- and classroom-level. <i>Contemporary School Psychology</i>."
+      - "Wang, Q., Wu, Y., <b>Feng, R.</b>, Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024). Adaptation and validation of the Mindful Student Questionnaire in Chinese. <i>Mindfulness</i>, 15(2), 359–371. <a href='https://doi.org/10.1007/s12671-023-02299-x' target='_blank'>https://doi.org/10.1007/s12671-023-02299-x</a>"
+      - "Lee, P., Chen, S., Yu, Y., Chen, Y., <b>Feng, R.</b>, & Fan, X. (2019). The effect of mindfulness and wisdom as intervention to deal with college students’ internet addiction. <i>International Journal of Psychology & Behavior Analysis</i>, 5. <a href='https://doi.org/10.15344/2455-3867/2019/161' target='_blank'>https://doi.org/10.15344/2455-3867/2019/161</a>"
+
+  - title: Manuscripts Under Review / Revision
+    type: list
+    contents:
+      - "<b>Feng, R.</b>, Hao, X., Coronado, B., & Verhaeghen, P. <i>When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty</i> (in revision at <i>Motivation and Emotion</i>)."
+      - "<b>Feng, R.</b>, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. <i>A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community</i> (in revision at <i>Annals of Behavioral Medicine</i>)."
+
+  - title: Conference Presentations & Posters
+    type: time_table
+    contents:
+      - title: Mind-body interventions induced brain changes in the aging population
+        institution: International Society for Contemplative Research, NC, USA
+        year: 2025
+        description:
+          - Systematic review of structural and functional neuroimaging findings
+      - title: Mindfulness, psychological flexibility, and rumination — ML & SEM
+        institution: Association for Psychological Science, Washington, DC, USA
+        year: 2025
+      - title: Network analyses of LGBTQ research and community diversity
+        institution: Minneapolis, USA
+        year: 2022
+      - title: Anxiety sensitivity and GAD tendency in Chinese college students
+        institution: Singapore Conference on Applied Psychology (SCAP), Singapore
+        year: 2019
+      - title: Delay discounting & online-shopping addiction — learned helplessness
+        institution: Asian Conference on Psychology & the Behavioral Sciences, Tokyo, Japan
+        year: 2018
+
+  - title: Ongoing Projects
+    type: time_table
+    contents:
+      - title: Mind-body interventions induced brain changes in the aging population
+        year: 2023–present
+        description: A systematic review of structural and functional neuroimaging findings in older adults
+      - title: Toward generalizable mind-wandering decoding
+        year: 2025–present
+        description: Integrating shapelet and coherence features via variational autoencoder to improve EEG-based decoding
+      - title: Mindfulness and creative problem-solving with sudden insight
+        year: 2024–present
+        description: An electrophysiological study examining how mindfulness training enhances creative insight and neural flexibility
+      - title: Emotional counter-regulation during the Priming Identify Task
+        year: 2024–present
+        description: An ERP-based experimental investigation into emotion regulation under priming-induced affective contexts
+      - title: Ecological momentary assessment of mind-wandering, affect, and state mindfulness
+        year: 2023–present
+        description: A mobile-based EMA study exploring the dynamics between spontaneous thought, affect, and mindfulness in daily life
+
+  - title: Work Experience
+    type: time_table
+    contents:
+      - title: Research Coordinator, SELF (Social-Emotional Learning and Functioning) Regulation Lab
+        institution: Syracuse University, Syracuse, USA
+        year: 2022–2023
+        description:
+          - Supervisor — Dr. Rachel Razza
+          - Organized and analyzed 200+ cross-examination data points for the Inner Strength Project (ISP), investigating improvements in self-regulation and self-compassion among youth
+          - Developed EEG experimental protocols and data collection pipelines to investigate mindfulness-related neural dynamics
+      - title: Research Assistant, Institute of Economics of Education
+        institution: Peking University, Beijing, China
+        year: 2022–2023
+        description:
+          - Supervisor — Dr. Hong Zhu
+          - Supported longitudinal evaluation of lifelong education programs using behavioral and EEG data
+          - Assisted in experimental design and preprocessing of neurophysiological signals
+      - title: Research Assistant, Psychology and Interpersonal Process (P.I.P.) Lab
+        institution: Ohio University, Athens, USA
+        year: 2021–2022
+        description:
+          - Supervisors — Dr. Tao Lin & Dr. Timothy Anderson
+          - Contributed to a meta-analysis examining the inclusiveness of LGBTQ research (1989–2021) and the effectiveness of online counseling interventions
+      - title: Research Assistant, Mind-Body Lab
+        institution: Syracuse University, Syracuse, USA
+        year: 2021–2022
+        description:
+          - PI — Dr. Joshua Felver
+          - Translated, collected, and analyzed data from the Mindful Student Questionnaire (N=2,910); co-authored a peer-reviewed publication in <i>Mindfulness</i>
+          - Conducted TSST tests and supported physiological data collection (blood pressure, response times) 2–3 times per week
+
+  - title: Teaching Experience
+    type: time_table
+    contents:
+      - title: PSY 2020 — Psychological Statistics (Lab Instructor)
+        institution: Georgia Institute of Technology
+        year: 2025 Spring
+      - title: PSY 2020 — Psychological Statistics (Teaching Assistant)
+        institution: Georgia Institute of Technology
+        year: 2024 Fall
+      - title: PSY 1101 — General Psychology (Teaching Assistant)
+        institution: Georgia Institute of Technology
+        year: 2024 Summer
+      - title: PSY 2015 — Research Methods (Teaching Assistant)
+        institution: Georgia Institute of Technology
+        year: 2024 Spring
+      - title: PSY 3012 — Introduction to Cognitive Psychology (Teaching Assistant)
+        institution: Georgia Institute of Technology
+        year: 2023 Fall
+
+  - title: Academic Service
+    type: time_table
+    contents:
+      - title: Coordinator, Brown Bag Academic Presentation Series
+        institution: School of Psychology, Georgia Institute of Technology
+        year: 2024 Fall – 2025 Spring
 ---
 
-<p style="opacity:.6">
-DEBUG:
-commit {{ site.github.build_revision | slice: 0,7 }},
-cv sections = {{ site.data.cv | size }},
-first = {{ site.data.cv[0].title }}
-</p>
+{% include cv.html data=page.cv %}
