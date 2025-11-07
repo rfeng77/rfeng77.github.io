@@ -1,18 +1,20 @@
 - title: "projects"
-  url:   /projects/
+  url: /projects/
   children:
-    - title: "Mind-wandering & vigilance"
-      url:   /projects/#mind-wandering-vigilance
+    - title: "Mind-wandering & Vigilance"
+      url: /projects/#mind-wandering-vigilance
     - title: "Counter Emotion Regulation"
-      url:   /projects/#counter-emotion-regulation
+      url: /projects/#counter-emotion-regulation
     - title: "Controllability × Reward"
-      url:   /projects/#controllability-reward
+      url: /projects/#controllability-reward
     - title: "MBIs in Older Adults"
-      url:   /projects/#mbis-older-adults
+      url: /projects/#mbis-older-adults
+
 - title: "publications"
-  url:   /publications/
+  url: /publications/
+
 - title: "teaching"
-  url:   /teaching/
+  url: /teaching/
+
 - title: "cv"
-  url:   /assets/bibliography/Ruohan_Feng_CV.pdf
-  external: true
+  url: /cv/
