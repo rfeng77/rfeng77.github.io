@@ -1,45 +1,94 @@
 ---
 layout: page
-title: CV
+title: "CV"
 permalink: /cv/
 nav: true
-nav_order: 5
-cv_pdf: example_pdf.pdf
-toc:
-  sidebar: left
-
-cv:
-  - title: General Information
-    type: map
-    contents:
-      - name: Full Name
-        value: Ruohan (Fleur) Feng
-      - name: Email
-        value: rfeng68@gatech.edu
-      - name: Location
-        value: Atlanta, GA, USA
-      - name: Research Areas
-        value: Cognitive flexibility, Emotion regulation, EEG/fMRI, Mind-wandering, Mind-body interventions, ML for neuroimaging
-  # ……（其余各 section 原样粘贴，注意缩进）
-
-# 如果你想用 _data/cv.yml（方案B），就把上面的 cv: 整段删掉
 ---
 
-{%- comment -%}
-优先用 page.cv；如果没有，就回退到 _data/cv.yml
-{%- endcomment -%}
-{%- assign cvdata = page.cv | default: site.data.cv -%}
+# Ruohan (Fleur) Feng
 
-{%- for section in cvdata -%}
-### {{ section.title }}
+Atlanta, GA, USA • rfeng68@gatech.edu  
+**Research Areas:** Cognitive flexibility, Emotion regulation, EEG/fMRI, Mind-wandering, Mind–body interventions, ML for neuroimaging
 
-{%- case section.type -%}
-  {%- when "map"         -%}{% render "cv/map.liquid",         section: section %}
-  {%- when "list"        -%}{% render "cv/list.liquid",        section: section %}
-  {%- when "nested_list" -%}{% render "cv/nested_list.liquid", section: section %}
-  {%- when "list_groups" -%}{% render "cv/list_groups.liquid", section: section %}
-  {%- when "time_table"  -%}{% render "cv/time_table.liquid",  section: section %}
-  {%- else -%}<p><em>Unsupported section type: {{ section.type }}</em></p>
-{%- endcase -%}
+---
 
-{%- endfor -%}
+## Education
+**Ph.D. in Cognition & Brain Science**, Georgia Institute of Technology — *2023–present*  
+Advisor: Paul Verhaeghen, Ph.D.
+
+**Minor in Computer Science (in progress)**, Georgia Institute of Technology — *2025–2027 (planned)*  
+Coursework: Statistics I/II, Computational Data Analysis, Data & Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
+
+**M.S. in Clinical Mental Health Counseling**, Syracuse University — *2019–2022*  
+Coursework: Research Methods, Theories of Counseling, Group Work, Foundations of MHC, Crisis Counseling, Psychological Diagnosis, Treatment & Psychopharmacology, Internship
+
+**B.S. (Honors) in Applied Psychology**, Hong Kong Baptist University (Zhuhai/HK) — *2014–2018*  
+Dissertation: *The Effect of Anxiety Sensitivity… on GAD Tendency in Chinese College Students*
+
+---
+
+## Skills
+- **Programming & Tools:** Python, R, MATLAB, SQL, Git/GitHub, LaTeX, PsychoPy, SPSS, RevMan, Qualtrics, Tableau, Excel  
+- **Neuroimaging:** EEG, fMRI, sMRI  
+- **Toolkits:** FSL, FreeSurfer, ANTs, AFNI, MRIQC, fMRIPrep, Nipype, GLMsingle, GingerALE, SDM, MNE  
+- **Methods:** SEM, Multilevel models, TVEM, Bayesian inference, ML for neuroimaging, Signal processing, Data visualization  
+- **Languages:** Chinese (native), English (fluent), Japanese (basic)
+
+---
+
+## Peer-reviewed Publications
+- **Ou, Y.**, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., **Feng, R.**, Sun, F., & Wu, J. (2025). The application of the BERTopic model in natural language processing: In-depth text topic modeling. *ICCECE 2025*, 793–796. IEEE. https://doi.org/10.1109/ICCECE65250.2025.10984639  
+- **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). … *Machine Learning with Applications*, 100614. https://doi.org/10.1016/j.mlwa.2024.100614  
+- Razza, R., Liu, Q., **Feng, R.**, … (in press). *Contemporary School Psychology*.  
+- Wang, Q., Wu, Y., **Feng, R.**, … (2024). *Mindfulness*, 15(2), 359–371. https://doi.org/10.1007/s12671-023-02299-x  
+- Lee, P., Chen, S., Yu, Y., Chen, Y., **Feng, R.**, & Fan, X. (2019). *IJPBA*, 5. https://doi.org/10.15344/2455-3867/2019/161
+
+---
+
+## Under Review / In Revision
+- **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away…* (in revision at *Motivation and Emotion*).  
+- **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses…* (in revision at *Annals of Behavioral Medicine*).
+
+---
+
+## Presentations & Posters
+- *Mind-body interventions induced brain changes in the aging population*, ISCR, NC, USA — **2025**  
+- *Mindfulness, psychological flexibility, and rumination — ML & SEM*, APS, Washington DC — **2025**  
+- *Network analyses of LGBTQ research and community diversity*, Minneapolis, USA — **2022**  
+- *Anxiety sensitivity and GAD tendency*, SCAP, Singapore — **2019**  
+- *Delay discounting & online-shopping addiction — learned helplessness*, ACB, Tokyo — **2018**
+
+---
+
+## Ongoing Projects
+- **Mind-body Interventions in Older Adults** — systematic review of structural/functional imaging (*2023–present*)  
+- **Generalizable Mind-Wandering Decoding** — EEG shapelet + coherence + VAE (*2025–present*)  
+- **Mindfulness & Creative Insight** — EEG of insight and neural flexibility (*2024–present*)  
+- **Emotional Counter-Regulation** — ERP under priming contexts (*2024–present*)  
+- **EMA of MW, Affect, and State Mindfulness** — daily-life mobile EMA (*2023–present*)
+
+---
+
+## Work Experience
+- **Research Coordinator**, SELF Regulation Lab, Syracuse University — *2022–2023*  
+Supervisor: Dr. Rachel Razza; organized & analyzed 200+ datapoints (Inner Strength Project); EEG protocols/pipelines  
+- **Research Assistant**, Institute of Economics of Education, Peking University — *2022–2023*  
+Longitudinal evaluation with behavioral & EEG data  
+- **Research Assistant**, P.I.P. Lab, Ohio University — *2021–2022*  
+Meta-analysis on LGBTQ inclusiveness & online counseling  
+- **Research Assistant**, Mind-Body Lab, Syracuse University — *2021–2022*  
+MSQ dataset (N=2,910); co-authored in *Mindfulness*; TSST & physiology
+
+---
+
+## Teaching
+- **PSY 2020 — Psychological Statistics (Lab Instructor)**, Georgia Tech — *2025 Spring*  
+- **PSY 2020 — Psychological Statistics (TA)** — *2024 Fall*  
+- **PSY 1101 — General Psychology (TA)** — *2024 Summer*  
+- **PSY 2015 — Research Methods (TA)** — *2024 Spring*  
+- **PSY 3012 — Intro to Cognitive Psychology (TA)** — *2023 Fall*
+
+---
+
+## Academic Service
+- **Coordinator**, Brown Bag Series — School of Psychology, Georgia Tech — *2024 Fall – 2025 Spring*
