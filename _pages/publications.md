@@ -45,37 +45,37 @@ nav_order: 2
 ## 🧠 Peer-reviewed Publications  
 
 <div class="pub-card">
-<b>Ou, Y.</b>, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., <b>Feng, R.</b>, Sun, F., & Wu, J. (2025).  
-<span class="pub-title">The application of the BERTopic model in natural language processing: In-depth text topic modeling.</span>  
-<span class="pub-journal">Proceedings of the 2025 5th International Conference on Consumer Electronics and Computer Engineering (ICCECE)</span>, 793–796. IEEE.  
-<span class="pub-link">[DOI](https://doi.org/10.1109/ICCECE65250.2025.10984639)</span>
+  <b>Ou, Y.</b>, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., <b>Feng, R.</b>, Sun, F., & Wu, J. (2025).  
+  <span class="pub-title">The application of the BERTopic model in natural language processing: In-depth text topic modeling.</span>  
+  <span class="pub-journal">Proceedings of the 2025 5th International Conference on Consumer Electronics and Computer Engineering (ICCECE)</span>, 793–796. IEEE.  
+  <span class="pub-link"><a href="https://doi.org/10.1109/ICCECE65250.2025.10984639" target="_blank">DOI</a></span>
 </div>
 
 <div class="pub-card">
-<b>Feng, R.</b>, Mishra, V., Hao, X., & Verhaeghen, P. (2024).  
-<span class="pub-title">The association between mindfulness, psychological flexibility, and rumination in predicting mental health and well-being among university students using machine learning and structural equation modeling.</span>  
-<span class="pub-journal">Machine Learning with Applications</span>, 100614.  
-<span class="pub-link">[DOI](https://doi.org/10.1016/j.mlwa.2024.100614)</span>
+  <b>Feng, R.</b>, Mishra, V., Hao, X., & Verhaeghen, P. (2024).  
+  <span class="pub-title">The association between mindfulness, psychological flexibility, and rumination in predicting mental health and well-being among university students using machine learning and structural equation modeling.</span>  
+  <span class="pub-journal">Machine Learning with Applications</span>, 100614.  
+  <span class="pub-link"><a href="https://doi.org/10.1016/j.mlwa.2024.100614" target="_blank">DOI</a></span>
 </div>
 
 <div class="pub-card">
-Razza, R., Liu, Q., <b>Feng, R.</b>, Hao, X., Kirkman, K., & Merrin, G. J. (in press).  
-<span class="pub-title">Cultivating adolescents’ self-compassion through mindfulness: The role of self-regulation at both the individual- and classroom-level.</span>  
-<span class="pub-journal">Contemporary School Psychology.</span>
+  Razza, R., Liu, Q., <b>Feng, R.</b>, Hao, X., Kirkman, K., & Merrin, G. J. (in press).  
+  <span class="pub-title">Cultivating adolescents’ self-compassion through mindfulness: The role of self-regulation at both the individual- and classroom-level.</span>  
+  <span class="pub-journal">Contemporary School Psychology.</span>
 </div>
 
 <div class="pub-card">
-Wang, Q., Wu, Y., <b>Feng, R.</b>, Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024).  
-<span class="pub-title">Adaptation and validation of the Mindful Student Questionnaire in Chinese.</span>  
-<span class="pub-journal">Mindfulness</span>, 15(2), 359–371.  
-<span class="pub-link">[DOI](https://doi.org/10.1007/s12671-023-02299-x)</span>
+  Wang, Q., Wu, Y., <b>Feng, R.</b>, Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024).  
+  <span class="pub-title">Adaptation and validation of the Mindful Student Questionnaire in Chinese.</span>  
+  <span class="pub-journal">Mindfulness</span>, 15(2), 359–371.  
+  <span class="pub-link"><a href="https://doi.org/10.1007/s12671-023-02299-x" target="_blank">DOI</a></span>
 </div>
 
 <div class="pub-card">
-Lee, P., Chen, S., Yu, Y., Chen, Y., <b>Feng, R.</b>, & Fan, X. (2019).  
-<span class="pub-title">The effect of mindfulness and wisdom as intervention to deal with college students’ internet addiction.</span>  
-<span class="pub-journal">International Journal of Psychology & Behavior Analysis</span>, 5.  
-<span class="pub-link">[DOI](https://doi.org/10.15344/2455-3867/2019/161)</span>
+  Lee, P., Chen, S., Yu, Y., Chen, Y., <b>Feng, R.</b>, & Fan, X. (2019).  
+  <span class="pub-title">The effect of mindfulness and wisdom as intervention to deal with college students’ internet addiction.</span>  
+  <span class="pub-journal">International Journal of Psychology & Behavior Analysis</span>, 5.  
+  <span class="pub-link"><a href="https://doi.org/10.15344/2455-3867/2019/161" target="_blank">DOI</a></span>
 </div>
 
 ---
