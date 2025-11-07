@@ -13,3 +13,4 @@ _scripts/*
 .github/workflows/jekyll.yml
 .github/workflows/**
 _pages/about.md
+_data/navigation.yml
