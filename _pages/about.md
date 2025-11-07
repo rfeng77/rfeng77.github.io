@@ -29,7 +29,7 @@ latest_posts:
 
 👋 Hi! I’m **Ruohan (Fleur) Feng**, a Ph.D. candidate in **Cognition & Brain Science** at **Georgia Tech**.  
 
-My research aims to advance **precision mental-health interventions** through **multimodal neuroimaging** that integrates **EEG** and **fMRI** to identify and modulate individualized neural activity associated with **attention**, **emotion regulation**, and **cognitive flexibility**. By combining these approaches with computational modeling, I seek to uncover how large-scale brain dynamics give rise to cognitive states such as **mind-wandering**, **task engagement**, and **symbolic processing**—laying the groundwork for next-generation **brain–computer interface systems** capable of real-time state decoding and feedback. 
+My research aims to advance **precision mental-health interventions** through **multimodal neuroimaging** that integrates **EEG** and **fMRI** to identify and modulate individualized neural activity associated with **attention**, **emotion regulation**, and **cognitive flexibility**. By combining these approaches with computational modeling, I seek to uncover how large-scale brain dynamics give rise to cognitive states such as **mind-wandering** laying the groundwork for next-generation **brain–computer interface systems** capable of real-time state decoding and feedback. 
 
 ### Contact
 - Email: <rfeng77@gatech.edu>  
