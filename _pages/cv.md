@@ -1,3 +1,7 @@
+<p style="opacity:.6">DEBUG:
+commit {{ site.github.build_revision | slice: 0,7 }},
+cv sections = {{ site.data.cv | size }},
+first = {{ site.data.cv[0].title }}</p>
 ---
 layout: cv
 permalink: /cv/
