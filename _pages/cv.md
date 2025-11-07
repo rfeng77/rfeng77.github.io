@@ -3,7 +3,8 @@ layout: page
 title: "CV"
 permalink: /cv/
 nav: true
-toc: true
+toc:
+  sidebar: left
 toc_sticky: true
 toc_label: "Ruohan (Fleur) Feng"
 cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
@@ -18,7 +19,6 @@ cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 </div>
 
 Atlanta, GA, USA · <a href="mailto:rfeng68@gatech.edu">rfeng68@gatech.edu</a>  
-
 **Research Areas:** Cognitive flexibility · Emotion regulation · EEG/fMRI · Mind-wandering · Mind–body interventions · ML for neuroimaging
 
 ---
@@ -115,9 +115,3 @@ MSQ dataset (N=2,910); co-authored in *Mindfulness*; TSST & physiology
 ## Academic Service
 
 - **Coordinator**, Brown Bag Series — School of Psychology, Georgia Tech — *2024 Fall – 2025 Spring*
-
----
-
-<div style="font-size:0.95rem; opacity:0.8;">
-Tip: This page uses a left sidebar TOC for quick navigation. Export to PDF via your browser’s “Print → Save as PDF”.
-</div>
