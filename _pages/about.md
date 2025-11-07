@@ -2,7 +2,6 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='/#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -11,7 +10,7 @@ profile:
   more_info: >
     <p>School of Psychology, Georgia Tech</p>
     <p>Atlanta, GA, USA</p>
-    <p><a href="mailto:rfeng77@gatech.edu">rfeng77@gatech.edu</a></p>
+    <p><a href="mailto:rfeng68@gatech.edu">rfeng68@gatech.edu</a></p>
 
 selected_papers: false
 social: true
