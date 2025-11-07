@@ -2,32 +2,128 @@
 layout: page
 permalink: /publications/
 title: publications
-description: Selected publications and works under review.
 nav: true
 nav_order: 2
 ---
 
-# Peer-reviewed publications
+<style>
+.pub-card {
+  background: #f9f9fb;
+  border-left: 4px solid #4b8bbe;
+  padding: 12px 18px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  transition: all 0.25s ease;
+}
+.pub-card:hover {
+  background: #eef3ff;
+  transform: translateX(3px);
+}
+.pub-title {
+  font-weight: 600;
+  color: #222;
+}
+.pub-journal {
+  font-style: italic;
+  color: #444;
+}
+.pub-link a {
+  color: #0077cc;
+  text-decoration: none;
+}
+.pub-link a:hover {
+  text-decoration: underline;
+}
+.section-title {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-top: 2.2em;
+  margin-bottom: 1em;
+}
+</style>
 
-1. **Ou, Y.**, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., **Feng, R.**, Sun, F., & Wu, J. (2025). The application of the BERTopic model in natural language processing: In-depth text topic modeling. *Proceedings of the 2025 5th International Conference on Consumer Electronics and Computer Engineering (ICCECE)*, 793–796. IEEE. https://doi.org/10.1109/ICCECE65250.2025.10984639  
-2. **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). The Association Between Mindfulness, Psychological Flexibility, and Rumination in Predicting Mental Health and Well-Being Among University Students Using Machine Learning and Structural Equation Modeling. *Machine Learning with Applications*, 100614. https://doi.org/10.1016/j.mlwa.2024.100614  
-3. Razza, R., Liu, Q., **Feng, R.**, Hao, X., Kirkman, K., & Merrin, G. J. (in press). Cultivating adolescents’ self-compassion through mindfulness: The role of self-regulation at both the individual- and classroom-level. *Contemporary School Psychology*.  
-4. Wang, Q., Wu, Y., **Feng, R.**, Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024). Adaptation and Validation of the Mindful Student Questionnaire in Chinese. *Mindfulness*, 15(2), 359–371. https://doi.org/10.1007/s12671-023-02299-x  
-5. Lee, P., Chen, S., Yu, Y., Chen, Y., **Feng, R.**, & Fan, X. (2019). The Effect of Mindfulness and Wisdom as Intervention to Deal with College Students’ Internet Addiction. *International Journal of Psychology & Behavior Analysis*, 5. https://doi.org/10.15344/2455-3867/2019/161
+## 🧠 Peer-reviewed Publications  
+
+<div class="pub-card">
+<b>Ou, Y.</b>, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., <b>Feng, R.</b>, Sun, F., & Wu, J. (2025).  
+<span class="pub-title">The application of the BERTopic model in natural language processing: In-depth text topic modeling.</span>  
+<span class="pub-journal">Proceedings of the 2025 5th International Conference on Consumer Electronics and Computer Engineering (ICCECE)</span>, 793–796. IEEE.  
+<span class="pub-link">[DOI](https://doi.org/10.1109/ICCECE65250.2025.10984639)</span>
+</div>
+
+<div class="pub-card">
+<b>Feng, R.</b>, Mishra, V., Hao, X., & Verhaeghen, P. (2024).  
+<span class="pub-title">The association between mindfulness, psychological flexibility, and rumination in predicting mental health and well-being among university students using machine learning and structural equation modeling.</span>  
+<span class="pub-journal">Machine Learning with Applications</span>, 100614.  
+<span class="pub-link">[DOI](https://doi.org/10.1016/j.mlwa.2024.100614)</span>
+</div>
+
+<div class="pub-card">
+Razza, R., Liu, Q., <b>Feng, R.</b>, Hao, X., Kirkman, K., & Merrin, G. J. (in press).  
+<span class="pub-title">Cultivating adolescents’ self-compassion through mindfulness: The role of self-regulation at both the individual- and classroom-level.</span>  
+<span class="pub-journal">Contemporary School Psychology.</span>
+</div>
+
+<div class="pub-card">
+Wang, Q., Wu, Y., <b>Feng, R.</b>, Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024).  
+<span class="pub-title">Adaptation and validation of the Mindful Student Questionnaire in Chinese.</span>  
+<span class="pub-journal">Mindfulness</span>, 15(2), 359–371.  
+<span class="pub-link">[DOI](https://doi.org/10.1007/s12671-023-02299-x)</span>
+</div>
+
+<div class="pub-card">
+Lee, P., Chen, S., Yu, Y., Chen, Y., <b>Feng, R.</b>, & Fan, X. (2019).  
+<span class="pub-title">The effect of mindfulness and wisdom as intervention to deal with college students’ internet addiction.</span>  
+<span class="pub-journal">International Journal of Psychology & Behavior Analysis</span>, 5.  
+<span class="pub-link">[DOI](https://doi.org/10.15344/2455-3867/2019/161)</span>
+</div>
 
 ---
 
-## Manuscripts under review / revision
+## 📖 Manuscripts under Review / Revision  
 
-6. **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty* (in revision at *Motivation and Emotion*).  
-7. **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community* (in revision at *Annals of Behavioral Medicine*).
+<div class="pub-card">
+<b>Feng, R.</b>, Hao, X., Coronado, B., & Verhaeghen, P.  
+<span class="pub-title">When control slips away: Temporal dynamics of learned helplessness and cognitive flexibility under reward uncertainty.</span>  
+(in revision at <span class="pub-journal">Motivation and Emotion</span>)
+</div>
+
+<div class="pub-card">
+<b>Feng, R.</b>, Hua, Z., Chen, P., Lin, T., & Veldhuis, C.  
+<span class="pub-title">A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community.</span>  
+(in revision at <span class="pub-journal">Annals of Behavioral Medicine</span>)
+</div>
 
 ---
 
-## Conference presentations
+## 🎙️ Conference Presentations / Posters  
 
-- **Feng, R.** & Hao, X. (2025). *Mind-body interventions induced brain changes in the aging population: A systematic review of structural and functional neuroimaging findings.* International Society for Contemplative Research, North Carolina, USA.  
-- **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). *The association between mindfulness, psychological flexibility, and rumination…* Association for Psychological Science, Washington, DC, USA, 2025.  
-- **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. (2022). *A novel application of network analyses to examine how well LGBTQ research…* Minneapolis, USA.  
-- **Feng, R.** (2019). *The effect of anxiety sensitivity… on generalized anxiety disorder tendency in Chinese college students.* Singapore Conference on Applied Psychology (SCAP), Singapore.  
-- **Feng, R.** (2018). *The effect of delay discounts on college students with online shopping addiction: Learned helplessness as a mediator.* Asian Conference on Psychology & the Behavioral Sciences, Tokyo, Japan.
+<div class="pub-card">
+<b>Feng, R.</b> & Hao, X. (2025).  
+<span class="pub-title">Mind-body interventions induced brain changes in the aging population: A systematic review of structural and functional neuroimaging findings.</span>  
+International Society for Contemplative Research, North Carolina, USA.
+</div>
+
+<div class="pub-card">
+<b>Feng, R.</b>, Mishra, V., Hao, X., & Verhaeghen, P. (2024).  
+<span class="pub-title">The association between mindfulness, psychological flexibility, and rumination in predicting mental health and well-being among university students.</span>  
+Association for Psychological Science, Washington, DC, USA.
+</div>
+
+<div class="pub-card">
+<b>Feng, R.</b>, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. (2022).  
+<span class="pub-title">A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community.</span>  
+Minneapolis, USA.
+</div>
+
+<div class="pub-card">
+<b>Feng, R.</b> (2019).  
+<span class="pub-title">The effect of anxiety sensitivity and its lower-order factors on generalized anxiety disorder tendency in Chinese college students.</span>  
+Singapore Conference on Applied Psychology (SCAP), Singapore.
+</div>
+
+<div class="pub-card">
+<b>Feng, R.</b> (2018).  
+<span class="pub-title">The effect of delay discounts on college students with online shopping addiction: Learned helplessness as a mediator.</span>  
+Asian Conference on Psychology & the Behavioral Sciences, Tokyo, Japan.
+</div>
