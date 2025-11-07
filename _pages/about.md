@@ -29,21 +29,7 @@ latest_posts:
 
 👋 Hi! I’m **Ruohan (Fleur) Feng**, a Ph.D. candidate in **Cognition & Brain Science** at **Georgia Tech**.  
 
-
-### Research interests
-- Cognitive flexibility under (un)controllability  
-- Emotion regulation and Mental health
-- Brain-signal decoding (EEG) of Mind Wandering
-
-### Current projects
-- **Mind-wandering & vigilance** — multi-feature EEG pipelines with LoSO evaluation
-- **Counter Emotion Regulation** — Development of new paradigm researching on Counter Emotion Regulation to discover the potential abnormal emotion regulation of emotional disorder
-- **Controllability × reward** — Trial-by-trial and growth-curve modeling of voluntary switching behavior under controllable and uncontrollable conditions
-- **Mindfulness Interventoin in older adults** — systematic review/meta-analysis across MRI/EEG outcomes
-
-### Publications & writing
-See my [publications](/publications/) page for selected papers and preprints.  
-Short notes and updates appear on the [blog](/blog/).
+My research aims to advance **precision mental-health interventions** through **multimodal neuroimaging** that integrates **EEG** and **fMRI** to identify and modulate individualized neural activity associated with **attention**, **emotion regulation**, and **cognitive flexibility**. By combining these approaches with computational modeling, I seek to uncover how large-scale brain dynamics give rise to cognitive states such as **mind-wandering**, **task engagement**, and **symbolic processing**—laying the groundwork for next-generation **brain–computer interface systems** capable of real-time state decoding and feedback. 
 
 ### Contact
 - Email: <rfeng77@gatech.edu>  
