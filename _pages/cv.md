@@ -4,14 +4,12 @@ title: "CV"
 permalink: /cv/
 nav: true
 
-# 使用主题内置 TOC（不要 include toc.html）
 toc: true
 toc_sticky: true
-toc_label: ""               # 隐藏 TOC 标题文本
+toc_label: ""
 cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 ---
 
-<!-- 顶部：名字 + PDF（不要用 <h1>，避免进 TOC） -->
 <div style="display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
   <div style="font-size:2rem;font-weight:700;line-height:1.2;">Ruohan (Fleur) Feng</div>
   <a href="/assets/Ruohan_Feng_CV.pdf" class="btn btn--primary" style="white-space:nowrap;">Download PDF</a>
@@ -21,30 +19,38 @@ Atlanta, GA, USA · <a href="mailto:rfeng68@gatech.edu">rfeng68@gatech.edu</a>
 **Research Areas:** Cognitive flexibility · Emotion regulation · EEG/fMRI · Mind-wandering · Mind–body interventions · ML for neuroimaging
 
 ---
-
-<!-- ===== 样式：把主题 TOC 放到左侧，只展示 H2/H3，并隐藏 H1项与标题 ===== -->
 <style>
-/* 隐藏 TOC 标题行 */
+/* 隐藏页面顶部默认的大标题“CV” */
+.post-title, .page-title, .page > h1:first-of-type { display:none !important; }
+
+/* 左侧目录样式：只显示 H2/H3，不显示 H1 */
 #toc .toc-title, .toc .toc-title, .side__toc-title { display:none !important; }
-/* 不显示 H1（双保险） */
 #toc .toc-h1, .toc .toc-h1 { display:none !important; }
-/* 目录项样式微调 */
 #toc a, .toc a { display:block; padding:.25rem 0; font-size:1.05rem; line-height:1.45; }
 
-/* 大屏两列：左侧粘性 TOC，右侧正文 */
+/* 桌面端两列布局 */
 @media (min-width: 992px){
-  .page { display:grid; grid-template-columns:280px 1fr; gap:2rem; }
-  .page nav#toc, .page .toc {
-    position: sticky; top: 80px; align-self: start;
-    max-height: calc(100vh - 100px); overflow: auto; padding-right: .5rem;
+  .page, main, .page-content {
+    display:grid;
+    grid-template-columns:280px 1fr;
+    gap:2rem;
+  }
+  nav#toc, .toc {
+    position:sticky;
+    top:80px;
+    align-self:start;
+    max-height:calc(100vh - 100px);
+    overflow:auto;
+    padding-right:.5rem;
   }
 }
-/* 小屏：TOC 在正文上方，加分隔线 */
+
+/* 小屏幕：目录放上方 */
 @media (max-width: 991.98px){
-  .page nav#toc, .page .toc {
-    margin-bottom: 1rem;
-    border-bottom: 1px solid var(--global-divider-color, rgba(127,127,127,.25));
-    padding-bottom: .5rem;
+  nav#toc, .toc {
+    margin-bottom:1rem;
+    border-bottom:1px solid var(--global-divider-color,rgba(127,127,127,.25));
+    padding-bottom:.5rem;
   }
 }
 </style>
@@ -127,8 +133,3 @@ MSQ dataset (N=2,910); co-authored in *Mindfulness*; TSST & physiology
 - **PSY 1101 — General Psychology (TA)** — *2024 Summer*  
 - **PSY 2015 — Research Methods (TA)** — *2024 Spring*  
 - **PSY 3012 — Intro to Cognitive Psychology (TA)** — *2023 Fall*
-
----
-
-## Academic Service
-- **Coordinator**, Brown Bag Series — School of Psychology, Georgia Tech — *2024 Fall – 2025 Spring*
