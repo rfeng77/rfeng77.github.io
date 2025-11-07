@@ -7,14 +7,13 @@ nav: true
 nav_order: 2
 ---
 
-<!-- _pages/publications.md -->
-
-<!-- Bibsearch Feature -->
-
 {% include bib_search.liquid %}
 
-<div class="publications">
+## Peer-reviewed Publications
+{% bibliography --query @*[keywords~=peer-reviewed] %}
 
-{% bibliography %}
+## Manuscripts Under Review
+{% bibliography --query @*[keywords~=under-review] %}
 
-</div>
+## Conference
+{% bibliography --query @*[keywords~=conference] %}
