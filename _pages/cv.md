@@ -2,9 +2,14 @@
 layout: page
 title: "CV"
 permalink: /cv/
-toc: true  
-toc_sticky: true 
+nav: true
+# 开启侧边目录
+toc: true
+toc_sticky: true
+toc_label: "Ruohan (Fleur) Feng"
+cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 ---
+
 
 <!-- 顶部标题区：第一行“CV”，第二行名字 + 右侧 PDF 链接按钮 -->
 # CV
