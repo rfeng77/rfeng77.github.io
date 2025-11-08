@@ -13,22 +13,22 @@ This study adapted and validated the Mindful Student Questionnaire (MSQ) for use
 
 <div class="row justify-content-center text-center">
   <div class="col-md-4 mt-3">
-    <a href="/assets/img/efa.png" data-lightbox="msq-figures" data-title="Exploratory Factor Analysis (EFA)">
-      <img src="/assets/img/efa.png" alt="Exploratory Factor Analysis" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="{{ 'assets/img/efa.png' | relative_url }}" data-lightbox="msq-figures" data-title="Exploratory Factor Analysis (EFA)">
+      <img src="{{ 'assets/img/efa.png' | relative_url }}" alt="Exploratory Factor Analysis" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
     <p class="mt-2 text-muted small">Exploratory Factor Analysis (EFA)</p>
   </div>
 
   <div class="col-md-4 mt-3">
-    <a href="/assets/img/cfa.png" data-lightbox="msq-figures" data-title="Confirmatory Factor Analysis (CFA)">
-      <img src="/assets/img/cfa.png" alt="Confirmatory Factor Analysis" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="{{ 'assets/img/cfa.png' | relative_url }}" data-lightbox="msq-figures" data-title="Confirmatory Factor Analysis (CFA)">
+      <img src="{{ 'assets/img/cfa.png' | relative_url }}" alt="Confirmatory Factor Analysis" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
     <p class="mt-2 text-muted small">Confirmatory Factor Analysis (CFA)</p>
   </div>
 
   <div class="col-md-4 mt-3">
-    <a href="/assets/img/msq-sswq-link.png" data-lightbox="msq-figures" data-title="MSQ–SSWQ Relationship">
-      <img src="/assets/img/msq-sswq-link.png" alt="MSQ–SSWQ Relationship" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="{{ 'assets/img/msq-sswq-link.png' | relative_url }}" data-lightbox="msq-figures" data-title="MSQ–SSWQ Relationship">
+      <img src="{{ 'assets/img/msq-sswq-link.png' | relative_url }}" alt="MSQ–SSWQ Relationship" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
     <p class="mt-2 text-muted small">MSQ–SSWQ Relationship</p>
   </div>
