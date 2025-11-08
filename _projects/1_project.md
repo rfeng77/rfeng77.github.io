@@ -5,7 +5,8 @@ description: "A psychometric validation of a mindfulness measure among 2,910 Chi
 img: assets/img/msq-cover.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false   # 关闭自动“References/Related publications”
+bibliography: false      
 ---
 
 ### Summary
