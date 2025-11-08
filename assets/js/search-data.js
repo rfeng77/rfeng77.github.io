@@ -406,9 +406,9 @@ ninja.data = [{
             },},{id: "news-passed-the-preliminary-examination-now-i-am-doctoral-candidate",
           title: 'Passed the Preliminary Examination! Now I am Doctoral Candidate!',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-adaptation-and-validation-of-the-mindful-student-questionnaire-msq-in-chinese-adolescents",
+          title: 'Adaptation and Validation of the Mindful Student Questionnaire (MSQ) in Chinese Adolescents',
+          description: "Psychometric validation of a mindfulness measure among 2,910 Chinese adolescents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
