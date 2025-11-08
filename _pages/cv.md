@@ -119,50 +119,61 @@ Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese Coll
 ---
 
 ## Peer-reviewed Publications
-- **Ou, Y.**, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., **Feng, R.**, Sun, F., & Wu, J. (2025). *The application of the BERTopic model in natural language processing.* *ICCECE 2025*, 793–796. IEEE.  
-- **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). *Machine Learning with Applications*, 100614.  
-- Razza, R., Liu, Q., **Feng, R.**, … (in press). *Contemporary School Psychology*.  
-- Wang, Q., Wu, Y., **Feng, R.**, … (2024). *Mindfulness*, 15(2), 359–371.  
-- Lee, P., Chen, S., Yu, Y., Chen, Y., **Feng, R.**, & Fan, X. (2019). *IJPBA*, 5.
+1. **Ou, Y.**, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., **Feng, R.**, Sun, F., & Wu, J. (2025). *The application of the BERTopic model in natural language processing: In-depth text topic modeling.* In *Proceedings of the 2025 5th International Conference on Consumer Electronics and Computer Engineering (ICCECE)* (pp. 793–796). IEEE. https://doi.org/10.1109/ICCECE65250.2025.10984639  
+
+2. **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). *The association between mindfulness, psychological flexibility, and rumination in predicting mental health and well-being among university students using machine learning and structural equation modeling.* *Machine Learning with Applications, 100614.* https://doi.org/10.1016/j.mlwa.2024.100614  
+
+3. Razza, R., Liu, Q., **Feng, R.**, Hao, X., Kirkman, K., & Merrin, G. J. (in press). *Cultivating adolescents’ self-compassion through mindfulness: The role of self-regulation at both the individual- and classroom-level.* *Contemporary School Psychology.*  
+
+4. Wang, Q., Wu, Y., **Feng, R.**, Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024). *Adaptation and validation of the Mindful Student Questionnaire in Chinese.* *Mindfulness, 15(2),* 359–371. https://doi.org/10.1007/s12671-023-02299-x  
+
+5. Lee, P., Chen, S., Yu, Y., Chen, Y., **Feng, R.**, & Fan, X. (2019). *The effect of mindfulness and wisdom as intervention to deal with college students’ internet addiction.* *International Journal of Psychology & Behavior Analysis, 5.* https://doi.org/10.15344/2455-3867/2019/161
 
 ---
-
 ## Under Review / In Revision
-- **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away…*  
-- **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses…*
+6. **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty.* (in revision for *Motivation and Emotion*).  
+
+7. **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community.* (in revision for *Annals of Behavioral Medicine*).  
 
 ---
 
 ## Presentations & Posters
-- *Mind-body interventions induced brain changes in the aging population*, ISCR, NC, USA — **2025**  
-- *Mindfulness, psychological flexibility, and rumination — ML & SEM*, APS, Washington DC — **2025**  
-- *Network analyses of LGBTQ research and community diversity*, Minneapolis, USA — **2022**  
-- *Anxiety sensitivity and GAD tendency*, SCAP, Singapore — **2019**  
-- *Delay discounting & online-shopping addiction — learned helplessness*, ACB, Tokyo — **2018**
+- **Feng, R.**, & Hao, X. (2025). *Mind-body interventions induced brain changes in the aging population: A systematic review of structural and functional neuroimaging findings.* 2025 International Society for Contemplative Research (ISCR), North Carolina, USA.  
+- **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). *The association between mindfulness, psychological flexibility, and rumination in predicting mental health and well-being among university students using machine learning and structural equation modeling.* Association for Psychological Science (APS), Washington, DC, USA.  
+- **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. (2022). *A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community.* Minneapolis, USA.  
+- **Feng, R.** (2019). *The effect of anxiety sensitivity and its lower-order factors on generalized anxiety disorder tendency in Chinese college students.* Singapore Conference on Applied Psychology (SCAP), Singapore.  
+- **Feng, R.** (2018). *The effect of delay discounts on college students with online shopping addiction: Learned helplessness as a mediator variable.* Asian Conference on Psychology & the Behavioral Sciences, Tokyo, Japan.
 
 ---
 
 ## Ongoing Projects
-- **Mind-body Interventions in Older Adults** — systematic review of structural/functional imaging (*2023–present*)  
-- **Generalizable Mind-Wandering Decoding** — EEG shapelet + coherence + VAE (*2025–present*)  
-- **Mindfulness & Creative Insight** — EEG of insight and neural flexibility (*2024–present*)  
-- **Emotional Counter-Regulation** — ERP under priming contexts (*2024–present*)  
-- **EMA of MW, Affect, and State Mindfulness** — daily-life mobile EMA (*2023–present*)
-
+- **Mind-body Interventions in Older Adults** (2023–present). *A systematic review of structural and functional neuroimaging findings in elderly populations practicing mindfulness and movement-based interventions.*  
+- **Generalizable Mind-Wandering Decoding** (2025–present). *EEG-based mind-wandering detection using shapelet transform, coherence features, and variational autoencoder for cross-subject generalization.*  
+- **Mindfulness & Creative Insight** (2024–present). *Examining neural correlates of insight and cognitive flexibility during mindfulness and creative ideation tasks via EEG analyses.*  
+- **Emotional Counter-Regulation** (2024–present). *Event-related potential (ERP) investigation of counter-regulatory emotional responses under priming contexts.*  
+- **Ecological Momentary Assessment of MW, Affect, and State Mindfulness** (2023–present). *Daily-life mobile EMA study assessing dynamic fluctuations in mind-wandering, affect, and mindfulness states.*
 ---
-
 ## Work Experience
-**Research Coordinator**, SELF Regulation Lab, Syracuse University — *2022–2023*  
-Supervisor: Dr. Rachel Razza; organized & analyzed 200+ datapoints (Inner Strength Project); EEG protocols/pipelines
+**Research Coordinator**, SELF (Social-Emotional Learning and Functioning) Regulation Lab, Syracuse University — *Syracuse, USA · 06/2022–06/2023*  
+Supervisor: Dr. Rachel Razza  
+- Organized and analyzed 200+ cross-examination data points to support the Inner Strength Project (ISP), investigating improvements in self-regulation and self-compassion among youth.  
+- Developed EEG experimental protocols and data collection pipelines to investigate mindfulness-related neural dynamics.  
 
-**Research Assistant**, Institute of Economics of Education, Peking University — *2022–2023*  
-Longitudinal evaluation with behavioral & EEG data
+**Research Assistant**, Institute of Economics of Education, Peking University — *Beijing, China · 06/2022–06/2023*  
+Supervisor: Dr. Hong Zhu  
+- Supported a longitudinal evaluation of lifelong education programs using behavioral and EEG data.  
+- Assisted with experimental paradigm design and preprocessing of neurophysiological signals.  
 
-**Research Assistant**, P.I.P. Lab, Ohio University — *2021–2022*  
-Meta-analysis on LGBTQ inclusiveness & online counseling
+**Research Assistant**, Psychology and Interpersonal Process (P.I.P.) Lab, Ohio University — *Athens, USA · 05/2021–05/2022*  
+Supervisors: Dr. Tao Lin & Dr. Timothy Anderson  
+- Contributed to a systematic review examining inclusivity trends in LGBTQ research (1989–2021).  
+- Conducted meta-analyses assessing the effectiveness of online counseling interventions.  
 
-**Research Assistant**, Mind-Body Lab, Syracuse University — *2021–2022*  
-MSQ dataset (N=2,910); co-authored in *Mindfulness*; TSST & physiology
+**Research Assistant**, Mind-Body Lab, Syracuse University — *Syracuse, USA · 08/2021–06/2022*  
+PI: Dr. Joshua Felver  
+- Translated, collected, and analyzed data from the Mindful Student Questionnaire (N = 2,910) to examine mindfulness factors (awareness, attention, acceptance) influencing school performance.  
+- Co-authored a peer-reviewed publication in *Mindfulness*.  
+- Conducted TSST tests to assist graduate students with physiological and response-time data collection (2–3 times per week).
 
 ---
 
