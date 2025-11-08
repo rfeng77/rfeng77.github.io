@@ -13,17 +13,17 @@ This study adapted and validated the Mindful Student Questionnaire (MSQ) for use
 
 <div class="row justify-content-center text-center">
   <div class="col-md-4 mt-3">
-    <a href="/assets/img/efa.png" data-lightbox="msq-figures" data-title="EFA Result">
-      <img src="/assets/img/efa.png" alt="EFA Result" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="/assets/img/efa.png" data-lightbox="msq-figures" data-title="Exploratory Factor Analysis (EFA)">
+      <img src="/assets/img/efa.png" alt="Exploratory Factor Analysis" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
-    <p class="mt-2 text-muted small">EFA Result</p>
+    <p class="mt-2 text-muted small">Exploratory Factor Analysis (EFA)</p>
   </div>
 
   <div class="col-md-4 mt-3">
-    <a href="/assets/img/cfa.png" data-lightbox="msq-figures" data-title="CFA Result">
-      <img src="/assets/img/cfa.png" alt="CFA Result" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="/assets/img/cfa.png" data-lightbox="msq-figures" data-title="Confirmatory Factor Analysis (CFA)">
+      <img src="/assets/img/cfa.png" alt="Confirmatory Factor Analysis" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
-    <p class="mt-2 text-muted small">CFA Result</p>
+    <p class="mt-2 text-muted small">Confirmatory Factor Analysis (CFA)</p>
   </div>
 
   <div class="col-md-4 mt-3">
@@ -32,6 +32,12 @@ This study adapted and validated the Mindful Student Questionnaire (MSQ) for use
     </a>
     <p class="mt-2 text-muted small">MSQ–SSWQ Relationship</p>
   </div>
+</div>
+
+<div class="caption">
+  Left: Exploratory factor extraction (EFA).  
+  Middle: Confirmatory factor structure (CFA).  
+  Right: Correlation between MSQ subscales and SSWQ well-being indices.
 </div>
 
 ---
@@ -46,4 +52,7 @@ This study adapted and validated the Mindful Student Questionnaire (MSQ) for use
 ---
 
 ### Publication
-Feng, R., Wang, Q., Wu, Y., Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024). Validation of the Mindful Student Questionnaire in Chinese adolescents. *Mindfulness, 15*(2), 359–371. [https://doi.org/10.1007/s12671-023-02299-x](https://doi.org/10.1007/s12671-023-02299-x)
+Feng, R., Wang, Q., Wu, Y., Hao, X., Felver, J. C., Zhang, Y., & Razza, R. (2024).  
+Validation of the Mindful Student Questionnaire in Chinese adolescents.  
+*Mindfulness, 15*(2), 359–371.  
+[https://doi.org/10.1007/s12671-023-02299-x](https://doi.org/10.1007/s12671-023-02299-x)
