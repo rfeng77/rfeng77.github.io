@@ -408,7 +408,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-adaptation-and-validation-of-the-mindful-student-questionnaire-msq-in-chinese-adolescents",
           title: 'Adaptation and Validation of the Mindful Student Questionnaire (MSQ) in Chinese Adolescents',
-          description: "Psychometric validation of a mindfulness measure among 2,910 Chinese adolescents",
+          description: "A psychometric validation of a mindfulness measure among 2,910 Chinese adolescents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-project-2",
