@@ -4,9 +4,8 @@ title: "CV"
 permalink: /cv/
 nav: true
 
-toc: true
-toc_sticky: true
-toc_label: ""
+toc:
+  sidebar: left  
 cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
 ---
 
@@ -19,41 +18,81 @@ Atlanta, GA, USA · <a href="mailto:rfeng68@gatech.edu">rfeng68@gatech.edu</a>
 **Research Areas:** Cognitive flexibility · Emotion regulation · EEG/fMRI · Mind-wandering · Mind–body interventions · ML for neuroimaging
 
 ---
+
 <style>
-/* 隐藏页面顶部默认的大标题“CV” */
-.post-title, .page-title, .page > h1:first-of-type { display:none !important; }
+/* ======= 左侧目录模式 ======= */
 
-/* 左侧目录样式：只显示 H2/H3，不显示 H1 */
-#toc .toc-title, .toc .toc-title, .side__toc-title { display:none !important; }
-#toc .toc-h1, .toc .toc-h1 { display:none !important; }
-#toc a, .toc a { display:block; padding:.25rem 0; font-size:1.05rem; line-height:1.45; }
-
-/* 桌面端两列布局 */
-@media (min-width: 992px){
-  .page, main, .page-content {
-    display:grid;
-    grid-template-columns:280px 1fr;
-    gap:2rem;
-  }
-  nav#toc, .toc {
-    position:sticky;
-    top:80px;
-    align-self:start;
-    max-height:calc(100vh - 100px);
-    overflow:auto;
-    padding-right:.5rem;
-  }
+/* 页面结构调整 */
+.page[data-toc-sidebar="left"] {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 2rem;
 }
 
-/* 小屏幕：目录放上方 */
-@media (max-width: 991.98px){
-  nav#toc, .toc {
-    margin-bottom:1rem;
-    border-bottom:1px solid var(--global-divider-color,rgba(127,127,127,.25));
-    padding-bottom:.5rem;
+/* 隐藏默认大标题 */
+.page[data-toc-sidebar="left"] .page-title,
+.page[data-toc-sidebar="left"] .post-title {
+  display: none !important;
+}
+
+/* 目录栏样式 */
+.page[data-toc-sidebar="left"] nav#toc,
+.page[data-toc-sidebar="left"] .toc {
+  position: sticky;
+  top: 80px;
+  align-self: start;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+  padding-right: .75rem;
+  border-right: 1px solid var(--global-divider-color, rgba(127,127,127,0.2));
+}
+
+/* 目录字体与间距 */
+.page[data-toc-sidebar="left"] #toc .toc-title,
+.page[data-toc-sidebar="left"] .toc .toc-title {
+  display: none !important;
+}
+.page[data-toc-sidebar="left"] #toc a,
+.page[data-toc-sidebar="left"] .toc a {
+  display: block;
+  padding: .25rem 0;
+  font-size: 0.95rem;
+  color: var(--global-text-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.page[data-toc-sidebar="left"] #toc a:hover,
+.page[data-toc-sidebar="left"] .toc a:hover {
+  color: var(--global-theme-color);
+}
+
+/* 小屏幕下改为顶部 TOC */
+@media (max-width: 991.98px) {
+  .page[data-toc-sidebar="left"] {
+    display: block;
+  }
+  .page[data-toc-sidebar="left"] nav#toc,
+  .page[data-toc-sidebar="left"] .toc {
+    border-right: none;
+    border-bottom: 1px solid var(--global-divider-color, rgba(127,127,127,0.25));
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
   }
 }
 </style>
+
+<script>
+/* 自动检测 front-matter 中 toc.sidebar: left 并应用样式 */
+document.addEventListener("DOMContentLoaded", () => {
+  const page = document.querySelector(".page");
+  const tocSidebar = {{ page.toc.sidebar | default: 'none' | jsonify }};
+  if (page && tocSidebar === 'left') {
+    page.setAttribute("data-toc-sidebar", "left");
+  }
+});
+</script>
+
+---
 
 ## Education
 **Ph.D. in Cognition & Brain Science**, Georgia Institute of Technology — *2023–present*  
@@ -63,10 +102,10 @@ Advisor: Paul Verhaeghen, Ph.D.
 Coursework: Statistics I/II, Computational Data Analysis, Data & Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
 
 **M.S. in Clinical Mental Health Counseling**, Syracuse University — *2019–2022*  
-Coursework: Research Methods, Theories of Counseling, Group Work, Foundations of MHC, Crisis Counseling, Psychological Diagnosis, Treatment & Psychopharmacology, Internship
+Coursework: Research Methods, Theories of Counseling, Group Work, Crisis Counseling, Psychological Diagnosis, Psychopharmacology, Internship
 
 **B.S. (Honors) in Applied Psychology**, Hong Kong Baptist University (Zhuhai/HK) — *2014–2018*  
-Dissertation: *The Effect of Anxiety Sensitivity… on GAD Tendency in Chinese College Students*
+Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese College Students*
 
 ---
 
@@ -80,17 +119,17 @@ Dissertation: *The Effect of Anxiety Sensitivity… on GAD Tendency in Chinese C
 ---
 
 ## Peer-reviewed Publications
-- **Ou, Y.**, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., **Feng, R.**, Sun, F., & Wu, J. (2025). The application of the BERTopic model in natural language processing: In-depth text topic modeling. *ICCECE 2025*, 793–796. IEEE. https://doi.org/10.1109/ICCECE65250.2025.10984639  
-- **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). … *Machine Learning with Applications*, 100614. https://doi.org/10.1016/j.mlwa.2024.100614  
+- **Ou, Y.**, Zhang, P., Yu, J., Li, M., Su, S., Zhang, M., **Feng, R.**, Sun, F., & Wu, J. (2025). *The application of the BERTopic model in natural language processing.* *ICCECE 2025*, 793–796. IEEE.  
+- **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). *Machine Learning with Applications*, 100614.  
 - Razza, R., Liu, Q., **Feng, R.**, … (in press). *Contemporary School Psychology*.  
-- Wang, Q., Wu, Y., **Feng, R.**, … (2024). *Mindfulness*, 15(2), 359–371. https://doi.org/10.1007/s12671-023-02299-x  
-- Lee, P., Chen, S., Yu, Y., Chen, Y., **Feng, R.**, & Fan, X. (2019). *IJPBA*, 5. https://doi.org/10.15344/2455-3867/2019/161
+- Wang, Q., Wu, Y., **Feng, R.**, … (2024). *Mindfulness*, 15(2), 359–371.  
+- Lee, P., Chen, S., Yu, Y., Chen, Y., **Feng, R.**, & Fan, X. (2019). *IJPBA*, 5.
 
 ---
 
 ## Under Review / In Revision
-- **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away…* (in revision at *Motivation and Emotion*).  
-- **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses…* (in revision at *Annals of Behavioral Medicine*).
+- **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away…*  
+- **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses…*
 
 ---
 
