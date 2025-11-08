@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Adaptation and Validation of the Mindful Student Questionnaire (MSQ) in Chinese Adolescents"
-description: "Psychometric validation of a mindfulness measure among 2,910 Chinese adolescents"
+description: "A psychometric validation of a mindfulness measure among 2,910 Chinese adolescents"
 img: assets/img/msq-cover.jpg
 importance: 1
 category: work
@@ -9,37 +9,39 @@ related_publications: true
 ---
 
 ### Summary
-This study adapted and validated the Mindful Student Questionnaire (MSQ) for Chinese adolescents (N = 2,910, ages 15–18). Both exploratory and confirmatory factor analyses supported a three-factor structure—Mindful Attention (MATS), Mindful Acceptance (MACS), and Approach & Persistence (APS). The MSQ showed high internal consistency (α = .78–.92) and excellent structural validity (CFI = 0.97, TLI = 0.97, RMSEA = 0.05). It also demonstrated strong convergent and predictive validity with the Student Subjective Well-Being Questionnaire (SSWQ), indicating its reliability for measuring mindfulness and well-being in educational contexts.
+This study adapted and validated the Mindful Student Questionnaire (MSQ) for use with Chinese adolescents (N = 2,910, ages 15–18). Both exploratory and confirmatory factor analyses supported a three-factor model—Mindful Attention (MATS), Mindful Acceptance (MACS), and Approach & Persistence (APS)—demonstrating high reliability (α ≈ .78–.92) and excellent model fit (CFI = 0.97, TLI = 0.97, RMSEA = 0.05). The MSQ showed strong convergent and predictive validity with the Student Subjective Well-Being Questionnaire (SSWQ), confirming its suitability for assessing mindfulness in Chinese school contexts.
 
-<div class="row justify-content-center">
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/msq-overview.png" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center text-center">
+  <div class="col-md-4 mt-3">
+    <a href="/assets/img/efa.png" data-lightbox="msq-figures" data-title="EFA Result">
+      <img src="/assets/img/efa.png" alt="EFA Result" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">EFA Result</p>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/msq-cfa-model.png" class="img-fluid rounded z-depth-1" %}
+
+  <div class="col-md-4 mt-3">
+    <a href="/assets/img/cfa.png" data-lightbox="msq-figures" data-title="CFA Result">
+      <img src="/assets/img/cfa.png" alt="CFA Result" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">CFA Result</p>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/msq-results-summary.png" class="img-fluid rounded z-depth-1" %}
+
+  <div class="col-md-4 mt-3">
+    <a href="/assets/img/msq-sswq-link.png" data-lightbox="msq-figures" data-title="MSQ–SSWQ Relationship">
+      <img src="/assets/img/msq-sswq-link.png" alt="MSQ–SSWQ Relationship" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">MSQ–SSWQ Relationship</p>
   </div>
 </div>
 
 ---
 
 ### Key Findings
-1. Three stable factors: Mindful Attention, Mindful Acceptance, and Approach & Persistence.  
-2. Strong reliability: Cronbach’s α between .78–.92 across subscales.  
-3. Excellent model fit: CFI = 0.97, TLI = 0.97, RMSEA = 0.05, SRMR = 0.04.  
-4. Predictive validity confirmed: MSQ correlated positively with well-being (SSWQ).  
-5. Provides a culturally adapted, reliable measure for mindfulness in Chinese students.
-
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/msq-efa-cfa.png" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/msq-sswq-link.png" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
+1. Identified a stable three-factor structure (MATS, MACS, APS).  
+2. Internal consistency was high across subscales (Cronbach’s α = .78–.92).  
+3. The model demonstrated excellent structural validity (CFI = 0.97, TLI = 0.97, RMSEA = 0.05, SRMR = 0.04).  
+4. Predictive validity was confirmed through correlations between MSQ and SSWQ.  
+5. The measure provides a culturally appropriate and psychometrically sound tool for assessing mindfulness in adolescents.
 
 ---
 
