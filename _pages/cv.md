@@ -98,8 +98,7 @@ document.addEventListener("DOMContentLoaded", () => {
 ## Education
 **Ph.D. in Cognition & Brain Science**, Georgia Institute of Technology — *2023–present*  
 Advisor: Paul Verhaeghen, Ph.D.
-
-**Minor in Computer Science (in progress)**, Georgia Institute of Technology — *2025–2027 (planned)*  
+Minor in Computer Science**, Georgia Institute of Technology — *2025–2027*  
 Coursework: Statistics I/II, Computational Data Analysis, Data & Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
 
 **M.S. in Clinical Mental Health Counseling**, Syracuse University — *2019–2022*  
@@ -111,10 +110,11 @@ Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese Coll
 ---
 
 ## Skills
-- **Programming & Tools:** Python, R, MATLAB, SQL, Git/GitHub, LaTeX, PsychoPy, SPSS, RevMan, Qualtrics, Tableau, Excel  
+- **Programming & Tools:** R, Python, MATLAB, SQL, GitHub, Java, LaTeX, PsychoPy, SPSS, RevMan, Qualtrics, Tableu, Microsoft Excel
 - **Neuroimaging:** EEG, fMRI, sMRI  
-- **Toolkits:** FSL, FreeSurfer, ANTs, AFNI, MRIQC, fMRIPrep, Nipype, GLMsingle, GingerALE, SDM, MNE  
-- **Methods:** SEM, Multilevel models, TVEM, Bayesian inference, ML for neuroimaging, Signal processing, Data viz  
+- **Neuroimaging Analysis Toolkits:** FSL, FreeSurfer, ANTs, AFNI, MRIQC, fMRIPrep, Nipype, GLMsingle, GingerALE, SDM, MNE  
+- **Quantitative & Modeling Expertise:** Statistical modeling; Machine learning; Computational modeling (e.g., Bayesian inference, latent growth models); Advanced statistical methods (e.g., SEM, multilevel modeling, time-varying effect modeling); Psychometric analysis; Experimental design; Data visualization; Signal processing
+- **Research & Communication:** Scientific writing; Research communication; Public speaking; Data interpretation and presentation
 - **Languages:** Chinese (native), English (fluent), Japanese (basic)
 
 ---
@@ -147,15 +147,15 @@ Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese Coll
 - **Mind-body Interventions in Older Adults** (2023–present). *Systematic review of structural/functional neuroimaging findings.*  
 - **Generalizable Mind-Wandering Decoding** (2025–present). *EEG shapelet + coherence + VAE for cross-subject decoding.*  
 - **Mindfulness & Creative Insight** (2024–present). *EEG of insight and neural flexibility.*  
-- **Emotional Counter-Regulation** (2024–present). *ERP under priming contexts.*  
-- **EMA of MW, Affect, and State Mindfulness** (2023–present). *Daily-life mobile EMA.*
+- **Emotional Counter-Regulation** (2024–present). *ERP under priming emotional regulation context.*  
+- **EMA of MW, Affect, and State Mindfulness** (2023–present). *Daily-life mobile EMA data collection and longitudinal analysis.*
 
 ---
 
 ## Work Experience
 **Research Coordinator**, SELF Regulation Lab, Syracuse University — *Syracuse, USA · 06/2022–06/2023*  
 Supervisor: Dr. Rachel Razza  
-- Organized and analyzed 200+ ISP data points (self-regulation, self-compassion).  
+- Organized and analyzed 200+ ISP data points.  
 - Built EEG protocols and data-collection pipelines for mindfulness studies.  
 
 **Research Assistant**, Institute of Economics of Education, Peking University — *Beijing, China · 06/2022–06/2023*  
@@ -168,7 +168,8 @@ Supervisors: Dr. Tao Lin & Dr. Timothy Anderson
 
 **Research Assistant**, Mind-Body Lab, Syracuse University — *Syracuse, USA · 08/2021–06/2022*  
 PI: Dr. Joshua Felver  
-- Translated/processed MSQ dataset (*N* = 2,910); co-authored paper in *Mindfulness*; TSST support (2–3×/week).
+- Translated/processed MSQ dataset (*N* = 2,910); co-authored paper in *Mindfulness*; 
+- Conducted TSST tests to aid graduate students in conducting experiments, including blood pressure measurements and response time data collection (2–3 times per week).
 
 ---
 
