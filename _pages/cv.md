@@ -96,9 +96,8 @@ document.addEventListener("DOMContentLoaded", () => {
 ---
 
 ## Education
-**Ph.D. in Cognition & Brain Science**, Georgia Institute of Technology — *2023–present*  
+**Ph.D. in Cognition & Brain Science**, Minor in Computer Science**, Georgia Institute of Technology — *2023–present*  
 Advisor: Paul Verhaeghen, Ph.D.
-Minor in Computer Science**, Georgia Institute of Technology — *2025–2027*  
 Coursework: Statistics I/II, Computational Data Analysis, Data & Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
 
 **M.S. in Clinical Mental Health Counseling**, Syracuse University — *2019–2022*  
