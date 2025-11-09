@@ -20,7 +20,7 @@ announcements:
   scrollable: true
   limit: 5
 
-latest_posts:        # 关闭主题自带“latest posts”以避免重复
+latest_posts:
   enabled: false
   scrollable: true
   limit: 3
