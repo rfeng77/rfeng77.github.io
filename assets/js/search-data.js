@@ -446,13 +446,6 @@ ninja.data = [{
           window.open("https://www.linkedin.com/in/ruohan-feng-138b59213", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
-        section: 'Socials',
-        handler: () => {
-          window.open("/feed.xml", "_blank");
-        },
-      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
