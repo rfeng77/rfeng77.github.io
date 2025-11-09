@@ -10,6 +10,7 @@ related_publications: false
 bibliography: false  
 ---
 
+
 ### Summary
 This project investigates how controllability (modulated by the Learned Helplessness experiment paradigm) affects cognitive flexibility under dynamic reward conditions.  
 Participants were assigned to controllable, uncontrollable, or control conditions during a noise-based learned helplessness task, then completed a voluntary task-switching paradigm without (video 1) and with reward manipulation (video 2).   
