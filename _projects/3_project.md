@@ -18,8 +18,8 @@ We hypothesize that priming participants with facial expressions of opposite val
 
 <div class="row justify-content-center text-center">
   <div class="col-md-10 mt-3">
-    <a href="/assets/img/cer-procedure.jpg" data-lightbox="cer-figs" data-title="Experimental Procedure for Counter-Emotion Regulation">
-      <img src="/assets/img/cer-procedure.jpg" alt="Experimental Procedure" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="/assets/img/cer-procedure.png" data-lightbox="cer-figs" data-title="Experimental Procedure for Counter-Emotion Regulation">
+      <img src="/assets/img/cer-procedure.png" alt="Experimental Procedure" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
     <p class="mt-2 text-muted small">Experimental procedure illustrating priming, identity, and rating phases within each trial.</p>
   </div>
@@ -37,8 +37,8 @@ We hypothesize that priming participants with facial expressions of opposite val
 
 <div class="row justify-content-center text-center">
   <div class="col-md-6 mt-3">
-    <a href="/assets/img/cer-left.jpg" data-lightbox="cer-figs" data-title="N170 ERP Response: Positive-to-Negative Priming">
-      <img src="/assets/img/cer-left.jpg" alt="ERP results left panel" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="/assets/img/negative.jpg" data-lightbox="cer-figs" data-title="N170 ERP Response: Positive-to-Negative Priming">
+      <img src="/assets/img/negative.jpg" alt="ERP results left panel" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
     <p class="mt-2 text-muted small">
       N170 amplitude differences across three conditions: ps (positive regulation of sad faces), ns (negative regulation of sad faces), and nes (neutral condition).
@@ -46,8 +46,8 @@ We hypothesize that priming participants with facial expressions of opposite val
   </div>
 
   <div class="col-md-6 mt-3">
-    <a href="/assets/img/cer-right.jpg" data-lightbox="cer-figs" data-title="LPP ERP Response: Negative-to-Positive Priming">
-      <img src="/assets/img/cer-right.jpg" alt="ERP results right panel" class="img-fluid rounded z-depth-1 shadow-sm">
+    <a href="/assets/img/positive.jpg" data-lightbox="cer-figs" data-title="LPP ERP Response: Negative-to-Positive Priming">
+      <img src="/assets/img/positive.jpg" alt="ERP results right panel" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
     <p class="mt-2 text-muted small">
       LPP amplitude differences across three conditions: ph (positive regulation of happy faces), nh (negative regulation of happy faces), and nes (neutral condition).
