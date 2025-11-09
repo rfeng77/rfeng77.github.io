@@ -3,7 +3,7 @@ layout: page
 title: "Mind–Body Interventions and Neural Mechanisms of Healthy Aging (Under Review)"
 card_title: "Systematic Review and Meta-analysis of MBI-Induced Brain Changes"
 description: "A systematic review and meta-analysis of neuroimaging evidence on meditation, Tai Chi, and yoga in older adults, revealing brain–behavior coupling that supports cognitive and emotional resilience."
-img: assets/img/mbi_brain_summary.png
+img: assets/img/mindfulscreen.jpg
 importance: 5
 category: work
 related_publications: false
