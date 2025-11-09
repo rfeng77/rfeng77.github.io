@@ -68,6 +68,7 @@ SEM confirmed significant serial mediation through flexibility and rumination, w
 Random forest regression identified *self-transcendence* and *rumination* as the strongest predictors of psychological well-being and depression outcomes.
 </div>
 
+
 ---
 
 <div class="row justify-content-center">
