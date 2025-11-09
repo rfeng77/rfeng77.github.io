@@ -411,8 +411,8 @@ ninja.data = [{
           description: "A psychometric validation of a mindfulness measure among 2,910 Chinese adolescents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-learned-helplessness-amp-cognitive-flexibility-under-reward-dynamics",
-          title: 'Learned Helplessness &amp;amp; Cognitive Flexibility under Reward Dynamics',
+            },},{id: "projects-learned-helplessness-amp-cognitive-flexibility-under-reward-dynamics-under-review",
+          title: 'Learned Helplessness &amp;amp; Cognitive Flexibility under Reward Dynamics (Under Review)',
           description: "Trial-level dynamics of controllability and reward shaping voluntary task switching",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
@@ -431,21 +431,6 @@ ninja.data = [{
           description: "A systematic review and meta-analysis of neuroimaging evidence on meditation, Tai Chi, and yoga in older adults, revealing brain–behavior coupling that supports cognitive and emotional resilience.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',
