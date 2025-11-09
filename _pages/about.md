@@ -35,40 +35,27 @@ My research aims to advance precision mental-health interventions through multim
 <br>
 
 ### latest posts
-<div class="latest-posts" markdown="1">
-
-| Date         | Event                                                                                         |
-|--------------|-----------------------------------------------------------------------------------------------|
-| Sep 15, 2025 | 🎓 Passed the Doctoral Preliminary Exam and officially became a Ph.D. Candidate.              |
-| May 2, 2025  | 👩‍🏫 Taught my first PSYC 2020 Statistics lab session as a Lecturer.                          |
-
+<div class="latest-posts">
+  <p>🎓 <b>Sep 15, 2025</b> — Passed the Doctoral Preliminary Exam and officially became a Ph.D. Candidate.</p>
+  <p>👩‍🏫 <b>May 2, 2025</b> — Taught my first PSYC 2020 Statistics lab session as a Lecturer.</p>
 </div>
 
 ---
 
 <style>
-/* 仅作用于 about 页的自定义“latest posts”块 */
-.page-about .latest-posts { margin-top: 0.75rem !important; }
-.page-about .latest-posts table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 0.5rem 0 1rem 0;
+.page-about .latest-posts {
+  margin-top: 0.75rem !important;
+  margin-bottom: 1.5rem !important;
+  line-height: 1.7;
+  text-align: right; /* ← 改为右对齐 */
 }
-.page-about .latest-posts th,
-.page-about .latest-posts td {
-  padding: 0.4rem 0.6rem;
-  border-bottom: 1px solid #2a2a2a3d; /* 深浅模式都可读 */
+.page-about .latest-posts p {
+  margin: 0.4rem 0;
+  font-size: 0.95rem;
+  color: #ccc;
 }
-.page-about .latest-posts th {
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  color: #9aa0a6; /* 暗色模式更易读 */
-}
-.page-about .latest-posts td:first-child {
-  width: 10rem;
-  white-space: nowrap;
-  color: #9aa0a6;
+.page-about .latest-posts b {
+  color: #fff;
   font-weight: 500;
 }
 </style>
