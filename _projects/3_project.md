@@ -50,7 +50,7 @@ We hypothesize that priming participants with facial expressions of opposite val
       <img src="/assets/img/positive.png" alt="ERP results right panel" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
     <p class="mt-2 text-muted small">
-      LPP amplitude differences across three conditions: ph (positive regulation of happy faces), nh (negative regulation of happy faces), and nes (neutral condition).
+      LPP amplitude differences across three conditions: ph (positive regulation of happy faces), nh (negative regulation of happy faces), and neh (neutral condition).
     </p>
   </div>
 </div>
