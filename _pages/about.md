@@ -35,12 +35,12 @@ My research aims to advance precision mental-health interventions through multim
 <br>
 
 ### latest posts
-<div class="latest-posts">
+<div class="latest-posts" markdown="1">
 
-| Date | Event |
-|------|-------|
-| Sep 15, 2025 | 🎓 Passed the Doctoral Preliminary Exam and officially became a Ph.D. Candidate. |
-| May 2, 2025  | 👩‍🏫 Taught my first PSYC 2020 Statistics lab session as a Lecturer. |
+| Date         | Event                                                                                         |
+|--------------|-----------------------------------------------------------------------------------------------|
+| Sep 15, 2025 | 🎓 Passed the Doctoral Preliminary Exam and officially became a Ph.D. Candidate.              |
+| May 2, 2025  | 👩‍🏫 Taught my first PSYC 2020 Statistics lab session as a Lecturer.                          |
 
 </div>
 
@@ -57,18 +57,18 @@ My research aims to advance precision mental-health interventions through multim
 .page-about .latest-posts th,
 .page-about .latest-posts td {
   padding: 0.4rem 0.6rem;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #2a2a2a3d; /* 深浅模式都可读 */
 }
 .page-about .latest-posts th {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
-  color: #555;
+  color: #9aa0a6; /* 暗色模式更易读 */
 }
 .page-about .latest-posts td:first-child {
-  width: 9rem;
+  width: 10rem;
   white-space: nowrap;
-  color: #777;
+  color: #9aa0a6;
   font-weight: 500;
 }
 </style>
