@@ -85,19 +85,7 @@ Participants were assigned to controllable, uncontrollable, or control condition
 ---
 ### Key Findings
 
-1. Behavioral patterns (Procedure & Videos):  
-   Under controllable noise, participants adapted switching rates flexibly to reward fluctuations, showing clear transitions between baseline and reward phases.  
-   In contrast, the uncontrollable group maintained flat, reward-insensitive switching patterns, indicating temporal rigidity and diminished adaptive control.
-
-2. Distributional changes (Histogram):  
-   Switch-rate distributions became narrower and more unimodal in the uncontrollable condition, suggesting reduced variability and a loss of exploratory behavior.  
-   Controllable participants retained a wider distribution, consistent with adaptive flexibility.
-
-3. Latent-state and reward-sensitivity modeling (Spectral & HMM):  
-   HMM analyses revealed that uncontrollable participants were more likely to remain in a rigid, high-cost state with low transition probability to adaptive modes.  
-   Spectral clustering confirmed a shift from reward-sensitive to reward-insensitive response profiles, highlighting gradual drift toward inflexibility.
-
-4. Overall interpretation:  
-   Across behavioral, distributional, and computational levels, uncontrollability disrupted reward-based modulation of task switching and promoted persistence in rigid states.  
-   Controllability preserved dynamic flexibility and maintained reward responsivity over time.
+1. Participants under controllable noise flexibly adjusted their switching rates to reward fluctuations, whereas the uncontrollable group showed flat, reward-insensitive patterns reflecting temporal rigidity.  Additionally, Switch-rate distributions narrowed and became more uniform in the uncontrollable condition, indicating reduced variability and diminished exploratory behavior.  
+3. HMM and spectral analyses revealed that uncontrollable participants remained in rigid, high-cost states and gradually lost reward sensitivity over time.  
+4. Overall, uncontrollability disrupted reward-based modulation of task switching, while controllability preserved adaptive flexibility and sustained reward responsiveness.
 ---
