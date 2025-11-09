@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Learned Helplessness & Cognitive Flexibility under Reward Dynamics"
+title: "Learned Helplessness & Cognitive Flexibility under Reward Dynamics (Under Review)"
 card_title: "Behavioral Experiment Project"
 description: "Trial-level dynamics of controllability and reward shaping voluntary task switching"
 img: assets/img/LH.jpeg
