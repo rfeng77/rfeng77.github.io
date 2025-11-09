@@ -85,29 +85,19 @@ Participants were assigned to controllable, uncontrollable, or control condition
 ---
 ### Key Findings
 
-1. Behavioral dynamics (Procedure & Baseline/Reward videos):  
-   Under controllable noise, participants exhibited rapid adaptation between low and high reward contexts—switching increased when reward probability rose and decreased when reward declined.  In contrast, the uncontrollable group showed flat switching trajectories, failing to track reward fluctuations even as task incentives changed.  
-   The control group’s switching pattern closely mirrored the controllable group, suggesting that uncontrollability—not arousal—disrupted adaptive control.
+1. Behavioral patterns (Procedure & Videos):  
+   Under controllable noise, participants adapted switching rates flexibly to reward fluctuations, showing clear transitions between baseline and reward phases.  
+   In contrast, the uncontrollable group maintained flat, reward-insensitive switching patterns, indicating temporal rigidity and diminished adaptive control.
 
-2. Distributional trends (Histogram):  
-   The histogram of switch rates revealed greater interindividual variability in the uncontrollable condition.  
-   Reward-induced bimodal distributions (exploratory vs. rigid responders) were pronounced in controllable and control groups but compressed toward a single rigid mode in the uncontrollable group, consistent with reduced behavioral diversity and response inflexibility.
+2. Distributional changes (Histogram):  
+   Switch-rate distributions became narrower and more unimodal in the uncontrollable condition, suggesting reduced variability and a loss of exploratory behavior.  
+   Controllable participants retained a wider distribution, consistent with adaptive flexibility.
 
-3. Latent-state dynamics (HMM):  
-   The Hidden Markov Model identified two major switching states:  
-   (a) a high-switch/low-RT cost “adaptive” state, and  
-   (b) a low-switch/high-cost “rigid” state.  
-   Controllable participants transitioned flexibly between states depending on reward context, while uncontrollable participants remained trapped in the rigid state with low transition probability to the adaptive mode.  
-   This pattern mirrors computational signatures of learned helplessness—reduced transition entropy and impaired state updating.
+3. Latent-state and reward-sensitivity modeling (Spectral & HMM):  
+   HMM analyses revealed that uncontrollable participants were more likely to remain in a rigid, high-cost state with low transition probability to adaptive modes.  
+   Spectral clustering confirmed a shift from reward-sensitive to reward-insensitive response profiles, highlighting gradual drift toward inflexibility.
 
-4. Reward-sensitivity clustering (Spectral analysis):  
-   Spectral clustering segmented participants into distinct longitudinal profiles:  
-   - “Reward-sensitive explorers” maintained positive coupling between reward and switch rate.  
-   - “Reward-insensitive conservatives” decoupled reward effects over time.  
-   Uncontrollable participants progressively shifted from the explorer to conservative clusters across trials, marking a gradual loss of reward responsivity at the group level.
-
-5. Integrated interpretation:  
-   Across behavioral and latent measures, uncontrollability induced a drift from exploratory, reward-driven control toward rigidity and inertia, whereas controllability maintained flexible, reward-responsive adaptation.  
-   The findings provide trial-level and computational evidence for learned helplessness as a dynamic process, not a static trait.
-
+4. Overall interpretation:  
+   Across behavioral, distributional, and computational levels, uncontrollability disrupted reward-based modulation of task switching and promoted persistence in rigid states.  
+   Controllability preserved dynamic flexibility and maintained reward responsivity over time.
 ---
