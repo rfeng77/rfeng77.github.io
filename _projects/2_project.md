@@ -86,6 +86,8 @@ Participants were assigned to controllable, uncontrollable, or control condition
 ### Key Findings
 
 1. Participants under controllable noise flexibly adjusted their switching rates to reward fluctuations, whereas the uncontrollable group showed flat, reward-insensitive patterns reflecting temporal rigidity.  Additionally, Switch-rate distributions narrowed and became more uniform in the uncontrollable condition, indicating reduced variability and diminished exploratory behavior.  
-3. HMM and spectral analyses revealed that uncontrollable participants remained in rigid, high-cost states and gradually lost reward sensitivity over time.  
-4. Overall, uncontrollability disrupted reward-based modulation of task switching, while controllability preserved adaptive flexibility and sustained reward responsiveness.
+2. HMM and spectral analyses revealed that uncontrollable participants remained in rigid, high-cost states and gradually lost reward sensitivity over time.  
+3. Overall, uncontrollability disrupted reward-based modulation of task switching, while controllability preserved adaptive flexibility and sustained reward responsiveness.
+
+
 ---
