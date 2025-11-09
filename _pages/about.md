@@ -5,7 +5,7 @@ permalink: /
 
 profile:
   align: right
-  image: prof_pic.jpg  
+  image: prof_pic.jpg
   image_circular: false
   more_info: >
     <p>School of Psychology, Georgia Tech</p>
@@ -20,8 +20,8 @@ announcements:
   scrollable: true
   limit: 5
 
-latest_posts:
-  enabled: true
+latest_posts:        # 关闭主题自带“latest posts”以避免重复
+  enabled: false
   scrollable: true
   limit: 3
 ---
@@ -32,36 +32,40 @@ My research aims to advance **precision mental-health interventions** through **
 
 ---
 
+<br>
+
 ### latest posts
+<div class="latest-posts">
 
 | Date | Event |
-|------|--------|
+|------|-------|
 | **Sep 15, 2025** | 🎓 Passed the **Doctoral Preliminary Exam** and officially became a **Ph.D. Candidate**. |
-| **May 2, 2025** | 👩‍🏫 Taught my **first PSYC 2020 Statistics lab session** as a Lecturer. |
+| **May 2, 2025**  | 👩‍🏫 Taught my **first PSYC 2020 Statistics lab session** as a Lecturer. |
+
+</div>
 
 ---
 
 <style>
-.page-about .latest-posts, .page-about table {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-}
-.page-about table {
+.page-about .latest-posts { margin-top: 0.75rem !important; }
+.page-about .latest-posts table {
   width: 100%;
   border-collapse: collapse;
+  margin: 0.5rem 0 1rem 0;
 }
-.page-about table td, .page-about table th {
+.page-about .latest-posts th,
+.page-about .latest-posts td {
   padding: 0.4rem 0.6rem;
   border-bottom: 1px solid #eee;
 }
-.page-about table th {
+.page-about .latest-posts th {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 0.9rem;
   color: #555;
 }
-.page-about table td:first-child {
-  width: 8rem;
+.page-about .latest-posts td:first-child {
+  width: 9rem;
   white-space: nowrap;
   color: #777;
   font-weight: 500;
