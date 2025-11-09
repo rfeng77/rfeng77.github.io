@@ -3,7 +3,7 @@ layout: page
 title: "Mindfulness, Psychological Flexibility, and Rumination in Predicting Well-being"
 card_title: "Application of Machine Learning on Mental Health Survey Study"
 description: "Integrating machine learning and structural modeling to uncover how mindfulness enhances well-being through flexibility and reduced rumination."
-img: assets/img/mlwa-pathmodel.png
+img: assets/img/wellbeing-model.png
 importance: 4
 category: work
 related_publications: false
