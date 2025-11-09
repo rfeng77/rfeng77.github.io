@@ -416,9 +416,9 @@ ninja.data = [{
           description: "Trial-level dynamics of controllability and reward shaping voluntary task switching",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-counter-emotion-regulation-paradigm-erp-evidence-of-priming-based-emotional-control-ongoing-project",
-          title: 'Counter-Emotion Regulation Paradigm: ERP Evidence of Priming-Based Emotional Control (Ongoing Project)',
-          description: "An EEG paradigm investigating how priming with opposite-valence emotions modulates neural and subjective emotional regulation.",
+            },},{id: "projects-project-3-with-very-long-name",
+          title: 'project 3 with very long name',
+          description: "a project that redirects to another website",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-project-4",
