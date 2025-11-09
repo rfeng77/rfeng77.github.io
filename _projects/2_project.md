@@ -1,81 +1,91 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: "Learned Helplessness & Cognitive Flexibility under Reward Dynamics"
+description: "Trial-level dynamics of controllability and reward shaping voluntary task switching"
+img: assets/img/procedure.jpg
 importance: 2
 category: work
 giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Summary
+This project investigates how controllability (modulated by the Learned Helplessness experiment paradigm) affects cognitive flexibility under dynamic reward conditions.  
+Participants were assigned to controllable, uncontrollable, or control conditions during a noise-based learned helplessness task, then completed a voluntary task-switching paradigm without (video 1) and with reward manipulation (video 2).   
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+---
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center text-center">
+  <div class="col-md-4 mt-3">
+    <a href="/assets/img/procedure.jpg" data-lightbox="lh-figs" data-title="Experimental Procedure">
+      <img src="/assets/img/procedure.jpg" alt="Experimental Procedure" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">Experimental Procedure</p>
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+
+  <div class="col-md-4 mt-3">
+    <video class="img-fluid rounded z-depth-1 shadow-sm" controls poster="/assets/img/baseline-thumb.jpg">
+      <source src="/assets/img/baseline.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p class="mt-2 text-muted small">Baseline Phase (Video)</p>
+  </div>
+
+  <div class="col-md-4 mt-3">
+    <video class="img-fluid rounded z-depth-1 shadow-sm" controls poster="/assets/img/reward-thumb.jpg">
+      <source src="/assets/img/reward.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <p class="mt-2 text-muted small">Reward Phase (Video)</p>
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Left: Experimental timeline and conditions.  
+  Middle & Right: Real-time switching behavior during baseline and reward phases.
+</div>
+
+---
+
+<div class="row justify-content-center text-center">
+  <div class="col-md-8 mt-4">
+    <a href="/assets/img/histogram.png" data-lightbox="lh-figs" data-title="Switch rate distributions across groups">
+      <img src="/assets/img/histogram.png" alt="Histogram of switch rates" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">Distribution of Switch Rates across Groups and Phases</p>
+  </div>
+</div>
+
+---
+
+<div class="row justify-content-center text-center">
+  <div class="col-md-6 mt-3">
+    <a href="/assets/img/spectral.png" data-lightbox="lh-figs" data-title="Spectral Clustering of Reward-Sensitivity Profiles">
+      <img src="/assets/img/spectral.png" alt="Spectral clustering results" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">Spectral Clustering of Reward-Sensitivity Profiles</p>
+  </div>
+
+  <div class="col-md-6 mt-3">
+    <a href="/assets/img/HMM.png" data-lightbox="lh-figs" data-title="HMM States and Transition Probabilities">
+      <img src="/assets/img/HMM.png" alt="HMM transitions" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">HMM States & Transitions</p>
+  </div>
+</div>
+
+<div class="caption">
+  Left: Clustered trajectories of reward sensitivity.  
+  Right: Hidden Markov Model showing latent state transitions and response costs.
+</div>
+
+---
+
+### Key Findings
+1. **Controllability preserves flexibility:** Controllable groups adaptively modulated switching by reward, while uncontrollable groups became reward-insensitive.  
+2. **Reward sensitivity declines under uncontrollability:** Over time, switching rate ceased to follow incentive changes.  
+3. **Latent-state modeling:** HMM revealed transition inertia and high-cost switching in uncontrollable participants.  
+4. **Cluster analysis:** Spectral profiles showed a gradual drift toward rigid, reward-insensitive clusters.  
+5. **Dynamic insight:** Trial-level modeling captured the evolution from adaptive exploration to cognitive rigidity.
+
+---
