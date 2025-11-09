@@ -3,6 +3,7 @@ layout: page
 title: "CV"
 permalink: /cv/
 nav: true
+nav_order: 4
 
 # Enable TOC and place it in a left sidebar
 toc: true
