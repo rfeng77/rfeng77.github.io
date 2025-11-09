@@ -21,7 +21,7 @@ We hypothesize that priming participants with facial expressions of opposite val
     <a href="/assets/img/cer-procedure.jpg" data-lightbox="cer-figs" data-title="Experimental Procedure for Counter-Emotion Regulation">
       <img src="/assets/img/cer-procedure.jpg" alt="Experimental Procedure" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
-    <p class="mt-2 text-muted small">Experimental procedure.</p>
+    <p class="mt-2 text-muted small">Experimental procedure illustrating priming, identity, and rating phases within each trial.</p>
   </div>
 </div>
 
@@ -29,30 +29,34 @@ We hypothesize that priming participants with facial expressions of opposite val
 
 ### Key Findings
 1. The paradigm effectively captures counter-emotion regulation processes by combining priming and facial recognition tasks within each trial.  
-2. Pairing facial expressions of opposite valence during the identity task led to increased N170 ERP amplitudes, suggesting stronger engagement of emotion regulation mechanisms.  
-3. Participants exhibited more stable emotional ratings following opposite-valence priming, consistent with enhanced regulatory adaptation.  
-4. Together, neural and behavioral results support the feasibility of this paradigm for probing priming-induced emotional control.
+2. Pairing facial expressions of opposite valence during the identity task increased N170 amplitudes, suggesting stronger engagement of early perceptual regulation mechanisms.  
+3. Opposite-valence priming also led to more stable emotion ratings, reflecting enhanced affective control.  
+4. Together, neural and behavioral results support the feasibility of this paradigm for probing priming-induced emotional regulation.
 
 ---
 
 <div class="row justify-content-center text-center">
   <div class="col-md-6 mt-3">
-    <a href="/assets/img/positive.jpg" data-lightbox="cer-figs" data-title="N170 ERP Response: Positive-to-Negative Priming">
+    <a href="/assets/img/cer-left.jpg" data-lightbox="cer-figs" data-title="N170 ERP Response: Positive-to-Negative Priming">
       <img src="/assets/img/cer-left.jpg" alt="ERP results left panel" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
-    <p class="mt-2 text-muted small"> N170 amplitude differences across three conditions: ps (positive regulation of sad faces), ns (negative regulation of sad faces), and nes (neutral condition). (left).</p> (left).</p>
+    <p class="mt-2 text-muted small">
+      N170 amplitude differences across three conditions: ps (positive regulation of sad faces), ns (negative regulation of sad faces), and nes (neutral condition).
+    </p>
   </div>
 
   <div class="col-md-6 mt-3">
-    <a href="/assets/img/negative.jpg" data-lightbox="cer-figs" data-title="LPP ERP Response: Negative-to-Positive Priming">
+    <a href="/assets/img/cer-right.jpg" data-lightbox="cer-figs" data-title="LPP ERP Response: Negative-to-Positive Priming">
       <img src="/assets/img/cer-right.jpg" alt="ERP results right panel" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
-    <p class="mt-2 text-muted small">LPP amplitude differences across three conditions: ph (positive regulation of happy faces), nh (negative regulation of happy faces), and nes (neutral condition) (right).</p>
+    <p class="mt-2 text-muted small">
+      LPP amplitude differences across three conditions: ph (positive regulation of happy faces), nh (negative regulation of happy faces), and nes (neutral condition).
+    </p>
   </div>
 </div>
 
 ---
 
 ### Interpretation
-Positively counter-regulating negative facial expressions during emotion identification elicited stronger early perceptual responses (N170), whereas negatively counter-regulating positive facial expressions produced enhanced late positive potentials (LPP).
-These findings support the notion that counter-emotion priming engages distinct regulatory neural mechanisms that buffer affective fluctuations, offering a novel approach to investigating the temporal dynamics of emotion regulation in real time.
+Positively counter-regulating negative facial expressions during emotion identification elicited stronger early perceptual responses (N170), whereas negatively counter-regulating positive expressions produced enhanced late positive potentials (LPP).  
+These findings suggest that counter-emotion priming recruits distinct regulatory neural mechanisms that buffer affective fluctuations, offering a new approach to investigating the **temporal dynamics of emotion regulation** in real time.
