@@ -421,9 +421,9 @@ ninja.data = [{
           description: "An EEG paradigm investigating how priming with opposite-valence emotions modulates neural and subjective emotional regulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-mindfulness-psychological-flexibility-and-rumination-in-predicting-well-being",
+          title: 'Mindfulness, Psychological Flexibility, and Rumination in Predicting Well-being',
+          description: "Integrating machine learning and structural modeling to uncover how mindfulness enhances well-being through flexibility and reduced rumination.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
