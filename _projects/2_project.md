@@ -2,10 +2,11 @@
 layout: page
 title: "Learned Helplessness & Cognitive Flexibility under Reward Dynamics"
 description: "Trial-level dynamics of controllability and reward shaping voluntary task switching"
-img: assets/img/procedure.jpg
+img: assets/img/LH.jpeg
 importance: 2
 category: work
-giscus_comments: true
+related_publications: false   
+bibliography: false  
 ---
 
 ### Summary
