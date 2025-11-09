@@ -1,81 +1,58 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: "Counter-Emotion Regulation Paradigm: ERP Evidence of Priming-Based Emotional Control (Ongoing Project)"
+card_title: "Emotion Regulation-EEG Project"
+description: "An EEG paradigm investigating how priming with opposite-valence emotions modulates neural and subjective emotional regulation."
+img: assets/img/emotion.jpg
 importance: 3
 category: work
+related_publications: false   
+bibliography: false    
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+### Summary
+This project introduces a novel EEG paradigm to investigate **counter-emotion regulation**, a process in which individuals regulate their affective state by engaging an opposite-valence emotional response.  
+We hypothesize that priming participants with facial expressions of opposite valence during an identity task enhances emotion-regulation efficiency, reflected in both neural (ERP) and behavioral (self-report) indices.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+---
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-center text-center">
+  <div class="col-md-10 mt-3">
+    <a href="/assets/img/cer-procedure.jpg" data-lightbox="cer-figs" data-title="Experimental Procedure for Counter-Emotion Regulation">
+      <img src="/assets/img/cer-procedure.jpg" alt="Experimental Procedure" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">Experimental procedure.</p>
   </div>
 </div>
-```
 
-{% endraw %}
+---
+
+### Key Findings
+1. The paradigm effectively captures counter-emotion regulation processes by combining priming and facial recognition tasks within each trial.  
+2. Pairing facial expressions of opposite valence during the identity task led to increased N170 ERP amplitudes, suggesting stronger engagement of emotion regulation mechanisms.  
+3. Participants exhibited more stable emotional ratings following opposite-valence priming, consistent with enhanced regulatory adaptation.  
+4. Together, neural and behavioral results support the feasibility of this paradigm for probing priming-induced emotional control.
+
+---
+
+<div class="row justify-content-center text-center">
+  <div class="col-md-6 mt-3">
+    <a href="/assets/img/positive.jpg" data-lightbox="cer-figs" data-title="N170 ERP Response: Positive-to-Negative Priming">
+      <img src="/assets/img/cer-left.jpg" alt="ERP results left panel" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small"> N170 amplitude differences across three conditions: ps (positive regulation of sad faces), ns (negative regulation of sad faces), and nes (neutral condition). (left).</p> (left).</p>
+  </div>
+
+  <div class="col-md-6 mt-3">
+    <a href="/assets/img/negative.jpg" data-lightbox="cer-figs" data-title="LPP ERP Response: Negative-to-Positive Priming">
+      <img src="/assets/img/cer-right.jpg" alt="ERP results right panel" class="img-fluid rounded z-depth-1 shadow-sm">
+    </a>
+    <p class="mt-2 text-muted small">LPP amplitude differences across three conditions: ph (positive regulation of happy faces), nh (negative regulation of happy faces), and nes (neutral condition) (right).</p>
+  </div>
+</div>
+
+---
+
+### Interpretation
+Positively counter-regulating negative facial expressions during emotion identification elicited stronger early perceptual responses (N170), whereas negatively counter-regulating positive facial expressions produced enhanced late positive potentials (LPP).
+These findings support the notion that counter-emotion priming engages distinct regulatory neural mechanisms that buffer affective fluctuations, offering a novel approach to investigating the temporal dynamics of emotion regulation in real time.
