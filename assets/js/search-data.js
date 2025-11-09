@@ -411,9 +411,9 @@ ninja.data = [{
           description: "A psychometric validation of a mindfulness measure among 2,910 Chinese adolescents",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-learned-helplessness-amp-cognitive-flexibility-under-reward-dynamics",
+          title: 'Learned Helplessness &amp;amp; Cognitive Flexibility under Reward Dynamics',
+          description: "Trial-level dynamics of controllability and reward shaping voluntary task switching",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
