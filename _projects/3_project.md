@@ -28,10 +28,9 @@ We hypothesize that priming participants with facial expressions of opposite val
 ---
 
 ### Key Findings
-1. The paradigm effectively captures counter-emotion regulation processes by combining priming and facial recognition tasks within each trial.  
-2. Pairing facial expressions of opposite valence during the identity task increased N170 amplitudes, suggesting stronger engagement of early perceptual regulation mechanisms.  
-3. Opposite-valence priming also led to more stable emotion ratings, reflecting enhanced affective control.  
-4. Together, neural and behavioral results support the feasibility of this paradigm for probing priming-induced emotional regulation.
+1.	The paradigm effectively captures counter-emotion regulation by integrating priming and facial recognition tasks within each trial. Neural and behavioral results jointly support the feasibility of this paradigm for probing priming-induced emotional regulation.
+2.	Positive counter-regulation of negative facial expressions elicited stronger early perceptual responses (N170), while negative counter-regulation of positive expressions enhanced late positive potentials (LPP).
+3.	These findings indicate that counter-emotion priming engages distinct regulatory neural mechanisms that buffer affective fluctuations, providing a new framework for studying the temporal dynamics of emotion regulation in real time.
 
 ---
 
@@ -57,6 +56,3 @@ We hypothesize that priming participants with facial expressions of opposite val
 
 ---
 
-### Interpretation
-Positively counter-regulating negative facial expressions during emotion identification elicited stronger early perceptual responses (N170), whereas negatively counter-regulating positive expressions produced enhanced late positive potentials (LPP).  
-These findings suggest that counter-emotion priming recruits distinct regulatory neural mechanisms that buffer affective fluctuations, offering a new approach to investigating the **temporal dynamics of emotion regulation** in real time.
