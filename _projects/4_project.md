@@ -36,60 +36,50 @@ Together, this integrated framework bridges *explanatory modeling* (SEM) and *pr
   </div>
 </div>
 
-<div class="caption">
+<div class="caption text-center">
 Conceptual model (left) depicting mindfulness → flexibility → rumination → well-being pathways, and neural network framework (right) integrating deep learning with feature importance analysis.
 </div>
 
 ---
 
+<!-- Smaller images below, all zoomable -->
 <div class="row justify-content-center">
-  <div class="col-md-10 mt-3">
+  <div class="col-md-7 mt-4">
     <a href="/assets/img/sem-result.png" data-lightbox="mlwa" data-title="Structural Equation Model Results">
       <img src="/assets/img/sem-result.png" alt="Structural Equation Model Results" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
+    <p class="mt-2 text-muted small text-center">
+      SEM confirmed significant serial mediation through flexibility and rumination (CFI = 0.98, RMSEA = 0.02). Self-transcendence showed the largest indirect effect on well-being.
+    </p>
   </div>
-</div>
 
-<div class="caption">
-SEM confirmed significant serial mediation through flexibility and rumination, with strong model fit (CFI = 0.98, RMSEA = 0.02). Self-transcendence showed the largest indirect effect on well-being.
-</div>
-
----
-
-<div class="row justify-content-center">
-  <div class="col-md-10 mt-3">
+  <div class="col-md-7 mt-4">
     <a href="/assets/img/randomforest-result.png" data-lightbox="mlwa" data-title="Random Forest Feature Importance">
       <img src="/assets/img/randomforest-result.png" alt="Random Forest Feature Importance" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
+    <p class="mt-2 text-muted small text-center">
+      Random forest regression identified *self-transcendence* and *rumination* as the strongest predictors of psychological well-being and depression outcomes.
+    </p>
   </div>
-</div>
 
-<div class="caption">
-Random forest regression identified *self-transcendence* and *rumination* as the strongest predictors of psychological well-being and depression outcomes.
-</div>
-
-
----
-
-<div class="row justify-content-center">
-  <div class="col-md-10 mt-3">
+  <div class="col-md-7 mt-4 mb-3">
     <a href="/assets/img/nn-result.png" data-lightbox="mlwa" data-title="Deep Neural Network RMSE Results">
       <img src="/assets/img/nn-result.png" alt="Deep Neural Network RMSE Results" class="img-fluid rounded z-depth-1 shadow-sm">
     </a>
+    <p class="mt-2 text-muted small text-center">
+      Deep neural network models trained on S-ART features achieved the lowest RMSE in predicting well-being (8.01), outperforming FFMQ and feature-only baselines.
+    </p>
   </div>
-</div>
-
-<div class="caption">
-Neural network models confirmed that the S-ART framework achieved the lowest prediction error for well-being (RMSE = 8.01), outperforming FFMQ and feature-only baselines.
 </div>
 
 ---
 
 ### Key Findings
-1. Converging evidence from ML and SEM: Both frameworks identified *psychological flexibility* and *rumination* as sequential mediators linking mindfulness to well-being.  
-2. Predictive modeling performance: Deep neural networks (DNNs) trained on S-ART features achieved the lowest RMSE in predicting well-being and depression scores, outperforming FFMQ-based and feature-only baselines.  
-3. Feature-level insights: Random forest regression consistently ranked *self-transcendence*, *self-regulation*, and *rumination* as the strongest predictors of mental health outcomes.  
-4. Integrated interpretation: Machine learning emphasized predictive utility, while SEM confirmed theoretical pathways—together demonstrating that mindfulness facilitates well-being through enhanced flexibility and reduced maladaptive thought patterns.
+1. **Converging evidence from ML and SEM:** Both frameworks identified *psychological flexibility* and *rumination* as sequential mediators linking mindfulness to well-being.  
+2. **Predictive modeling performance:** DNNs trained on S-ART features achieved the lowest RMSE in predicting well-being and depression, outperforming FFMQ and baseline models.  
+3. **Feature-level insights:** Random forest regression consistently ranked *self-transcendence*, *self-regulation*, and *rumination* as top predictors of mental health outcomes.  
+4. **Integrated interpretation:** Machine learning emphasized predictive utility, while SEM confirmed theoretical pathways—demonstrating that mindfulness facilitates well-being via enhanced flexibility and reduced maladaptive thought patterns.
+
 ---
 
 ### Publication
