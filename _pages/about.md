@@ -59,9 +59,3 @@ My research aims to advance precision mental-health interventions through multim
   font-weight: 500;
 }
 </style>
-
-<div align="center">
-  <script type="text/javascript" id="mapmyvisitors"
-          src="https://mapmyvisitors.com/map.js?d=sLJ9FhT-_ruyGezFkaWziXjjr7HEtZqJwIU9Xd_TTbE&cl=ffffff&w=a">
-  </script>
-</div>
