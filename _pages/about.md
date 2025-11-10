@@ -61,5 +61,7 @@ My research aims to advance precision mental-health interventions through multim
 </style>
 
 <div align="center">
-<script type="text/javascript" id="mmvst_globe" src="https://mapmyvisitors.com/globe.js?d=RYUN47ozWb5kXk=FUYLBdCGjNFoyVL5sgYwLqR7W9fY"></script>
+  <script type="text/javascript" id="mapmyvisitors"
+          src="https://mapmyvisitors.com/map.js?d=sLJ9FhT-_ruyGezFkaWziXjjr7HEtZqJwIU9Xd_TTbE&cl=ffffff&w=a">
+  </script>
 </div>
