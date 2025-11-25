@@ -124,7 +124,7 @@ Feng, R., Hua, Z., Chen, P., Lin, T., & Veldhuis, C.
 ## 🎙️ Conference Presentations / Posters  
 
 <div class="pub-card">
-Feng, R. & Hao, X. (2025).  
+Hao, X., Feng, R., Verhaeghen, P., & Turnbull, A. (2025).  
 <span class="pub-title">Mind-body interventions induced brain changes in the aging population: A systematic review of structural and functional neuroimaging findings.</span>  
 International Society for Contemplative Research, North Carolina, USA.
 </div>
