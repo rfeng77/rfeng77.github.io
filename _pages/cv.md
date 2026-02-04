@@ -10,6 +10,7 @@ toc: true
 toc_sticky: true
 toc_label: ""        # hide default TOC heading
 cv_pdf: "/assets/Ruohan_Feng_CV.pdf"
+resume_pdf: "/assets/Resume_Ruohan_FENG.pdf"
 
 # Custom switch to activate left-sidebar styling below
 # (keep exactly this shape; the script reads it)
