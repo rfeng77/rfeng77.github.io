@@ -97,9 +97,10 @@ document.addEventListener("DOMContentLoaded", () => {
 ---
 
 ## Education
-**Ph.D. in Cognition & Brain Science**, Minor in Computer Science**, Georgia Institute of Technology — *2023–present*  
+**Ph.D. in Cognition & Brain Science**, Minor in Machine Learning**, Georgia Institute of Technology — *2023–present*  
+**M.S. in Computer Science**
 Advisor: Paul Verhaeghen, Ph.D.
-Coursework: Statistics I/II, Computational Data Analysis, Data & Visual Analytics, Machine Learning, Research Methods, Neuroimaging, Cognitive Neuroscience, Regression
+Coursework: Modeling and Simulation, Computational Data Analysis, Data and Visual Analytics, Machine Learning, Regression, Statistics, Neuroimage
 
 **M.S. in Clinical Mental Health Counseling**, Syracuse University — *2019–2022*  
 Coursework: Research Methods, Theories of Counseling, Group Work, Crisis Counseling, Psychological Diagnosis, Psychopharmacology, Internship
@@ -129,7 +130,7 @@ Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese Coll
 ---
 
 ## Under Review / In Revision
-6. **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty.* (in revision for *Motivation and Emotion*).  
+6. **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty.* (in revision for *Motivation and Emotion*). PsyArXiv link: https://osf.io/preprints/psyarxiv/qj2av_v1
 7. **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community.* (in revision for *Annals of Behavioral Medicine*).  
 
 ---
@@ -174,7 +175,8 @@ PI: Dr. Joshua Felver
 ---
 
 ## Teaching
-- **PSY 2020 — Psychological Statistics (Lab Instructor)**, Georgia Tech — *2025 Spring*  
+- **PSY 2020 — Psychological Statistics (Lab Instructor)**, Georgia Tech — *2025 Spring,2026 Spring*
+- **PSY 6020 — Programming of Human Behavior (TA)** — 2025 Fall*
 - **PSY 2020 — Psychological Statistics (TA)** — *2024 Fall*  
 - **PSY 1101 — General Psychology (TA)** — *2024 Summer*  
 - **PSY 2015 — Research Methods (TA)** — *2024 Spring*  
