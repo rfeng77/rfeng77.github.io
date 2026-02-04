@@ -111,6 +111,7 @@ Systematic Review of Structural and Functional Neuroimaging Findings. </span>
 Feng, R., Hao, X., Coronado, B., & Verhaeghen, P.  
 <span class="pub-title">When control slips away: Temporal dynamics of learned helplessness and cognitive flexibility under reward uncertainty.</span>  
 (in revision at <span class="pub-journal">Motivation and Emotion</span>)
+<span class="pub-link"><a href="https://osf.io/preprints/psyarxiv/qj2av_v1" target="_blank">PsyArXiv link</a></span>
 </div>
 
 <div class="pub-card">
