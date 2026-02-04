@@ -97,10 +97,11 @@ document.addEventListener("DOMContentLoaded", () => {
 ---
 
 ## Education
-**Ph.D. in Cognition & Brain Science**, Minor in Machine Learning**, Georgia Institute of Technology — *2023–present*  
-**M.S. in Computer Science**
-Advisor: Paul Verhaeghen, Ph.D.
-Coursework: Modeling and Simulation, Computational Data Analysis, Data and Visual Analytics, Machine Learning, Regression, Statistics, Neuroimage
+**Ph.D. in Cognition & Brain Science**, Minor in Machine Learning  
+**M.S. in Computer Science**  
+Georgia Institute of Technology — *2023–present* · GPA: 3.81  
+Advisor: Paul Verhaeghen, Ph.D.  
+Coursework: Modeling and Simulation, Computational Data Analysis, Data and Visual Analytics, Machine Learning, Regression, Statistics, Neuroimaging
 
 **M.S. in Clinical Mental Health Counseling**, Syracuse University — *2019–2022*  
 Coursework: Research Methods, Theories of Counseling, Group Work, Crisis Counseling, Psychological Diagnosis, Psychopharmacology, Internship
