@@ -24,7 +24,7 @@ toc:
 </div>
 
 Atlanta, GA, USA · <a href="mailto:rfeng68@gatech.edu">rfeng68@gatech.edu</a>  
-**Research Areas:** Cognitive flexibility · Emotion regulation · EEG/fMRI · Mind-wandering · Mind–body interventions · ML for neuroimaging
+**Research Areas:** Unconscious, Cognitive flexibility · Emotion regulation · Mind-wandering · Mind–body interventions · EEG/fMRI · ML for neuroimaging
 
 ---
 
@@ -98,8 +98,8 @@ document.addEventListener("DOMContentLoaded", () => {
 ---
 
 ## Education
-**Ph.D. in Cognition & Brain Science**, Minor in Machine Learning  
-**M.S. in Computer Science**  
+**Ph.D. in Cognition & Brain Science** 
+**M.S. in Computer Science, specializing in Machine Learning**  
 Georgia Institute of Technology — *2023–present* · GPA: 3.81  
 Advisor: Paul Verhaeghen, Ph.D.  
 Coursework: Modeling and Simulation, Computational Data Analysis, Data and Visual Analytics, Machine Learning, Regression, Statistics, Neuroimaging
@@ -113,7 +113,7 @@ Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese Coll
 ---
 
 ## Skills
-- **Programming & Tools:** R, Python, MATLAB, SQL, GitHub, Java, LaTeX, PsychoPy, SPSS, RevMan, Qualtrics, Tableu, Microsoft Excel
+- **Programming & Tools:** R, Python (PySpark, pandas, NumPy, PyTorch, Matplotlib, TensorFlow), MATLAB, SQL, GitHub, Java, LaTeX, PsychoPy, SPSS,RevMan, Qualtrics, Tableu, Microsoft Excel
 - **Neuroimaging:** EEG, fMRI, sMRI  
 - **Neuroimaging Analysis Toolkits:** FSL, FreeSurfer, ANTs, AFNI, MRIQC, fMRIPrep, Nipype, GLMsingle, GingerALE, SDM, MNE  
 - **Quantitative & Modeling Expertise:** Statistical modeling; Machine learning; Computational modeling (e.g., Bayesian inference, latent growth models); Advanced statistical methods (e.g., SEM, multilevel modeling, time-varying effect modeling); Psychometric analysis; Experimental design; Data visualization; Signal processing
@@ -132,12 +132,24 @@ Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese Coll
 ---
 
 ## Under Review / In Revision
-6. **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P. *When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty.* (in revision for *Motivation and Emotion*). PsyArXiv link: https://osf.io/preprints/psyarxiv/qj2av_v1
-7. **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. *A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community.* (in revision for *Annals of Behavioral Medicine*).  
+6. **Feng, R.**, Yin, S., Jahanzad, S., Hao, X., Apt, L., & Verhaeghen, P.  
+*An Experimental Investigation of Implicit Emotional Counter-Regulation and Its Neural Correlates Using a Priming Identity Task.*  
+(in revision for *Cognitive, Affective & Behavioral Neuroscience*).
+7. Hao, X., **Feng, R.**, Guimarães, A. L., Verhaeghen, P., & Turnbull, A. G.  
+*Mind–body interventions and brain changes in aging adults with mild cognitive impairment: A systematic review of structural and functional neuroimaging findings.*  
+(in revision for *Neuropsychology Review*).
+8. **Feng, R.**, Hao, X., Coronado, B., & Verhaeghen, P.  
+*When Control Slips Away: Temporal Dynamics of Learned Helplessness and Cognitive Flexibility under Reward Uncertainty.*  
+(in revision for *Motivation and Emotion*).  
+PsyArXiv link: https://osf.io/preprints/psyarxiv/qj2av_v1
+9. **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C.  
+*A novel application of network analyses to examine how well LGBTQ research in LGBTQ journals reflects the diversity of the community.*  
+(in revision for *Annals of Behavioral Medicine*). 
 
 ---
 
 ## Presentations & Posters
+- **Feng, R.**, Yin, S., Jahanzad, S., Hao, X., Apt, L., & Verhaeghen, P. *An Experimental Investigation of Implicit Emotional Counter-Regulation and Its Neural Correlates Using a Priming Identity Task*, SANS (Social & Affective Neuroscience Society), San Diego, USA.
 - **Feng, R.**, & Hao, X. (2025). *Mind-body interventions induced brain changes in the aging population: A systematic review of structural and functional neuroimaging findings.* ISCR, North Carolina, USA.  
 - **Feng, R.**, Mishra, V., Hao, X., & Verhaeghen, P. (2024). *Mindfulness, psychological flexibility, and rumination — ML & SEM.* APS, Washington, DC, USA.  
 - **Feng, R.**, Hua, Z., Chen, P., Lin, T., & Veldhuis, C. (2022). *Network analyses of LGBTQ research and community diversity.* Minneapolis, USA.  
@@ -147,10 +159,9 @@ Dissertation: *The Effect of Anxiety Sensitivity on GAD Tendency in Chinese Coll
 ---
 
 ## Ongoing Projects
-- **Mind-body Interventions in Older Adults** (2023–present). *Systematic review of structural/functional neuroimaging findings.*  
+- **Human-AI Interaction in Medical and Psychological Consultation: Modeling Behavior and Decision-Making** (2026 - present). *combining a systematic review and an experimental study* 
 - **Generalizable Mind-Wandering Decoding** (2025–present). *EEG shapelet + coherence + VAE for cross-subject decoding.*  
 - **Mindfulness & Creative Insight** (2024–present). *EEG of insight and neural flexibility.*  
-- **Emotional Counter-Regulation** (2024–present). *ERP under priming emotional regulation context.*  
 - **EMA of MW, Affect, and State Mindfulness** (2023–present). *Daily-life mobile EMA data collection and longitudinal analysis.*
 
 ---
@@ -177,8 +188,10 @@ PI: Dr. Joshua Felver
 ---
 
 ## Teaching
-- **PSY 2020 — Psychological Statistics (Lab Instructor)**, Georgia Tech — *2025 Spring,2026 Spring*
+- **PSY 2012 — Research Methods (Instructor)** — 2026 Summer*
+- **PSY 2020 — Psychological Statistics (Lab Instructor)** — 2026 Spring*
 - **PSY 6020 — Programming of Human Behavior (TA)** — 2025 Fall*
+- **PSY 2020 — Psychological Statistics (Lab Instructor)** — 2025 Spring*
 - **PSY 2020 — Psychological Statistics (TA)** — *2024 Fall*  
 - **PSY 1101 — General Psychology (TA)** — *2024 Summer*  
 - **PSY 2015 — Research Methods (TA)** — *2024 Spring*  
