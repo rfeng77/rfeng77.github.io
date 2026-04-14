@@ -26,9 +26,10 @@ latest_posts:
   limit: 3
 ---
 
-Hi! I’m Ruohan (Fleur) Feng, a Ph.D. candidate in Cognition & Brain Science and an M.S. student in Computer Science, specializing in Machine Learning, at Georgia Tech, with a GPA of 3.81.
+Hi! I’m Ruohan (Fleur) Feng, a Ph.D. candidate in Cognition & Brain Science and an M.S. student in Computer Science, specializing in Machine Learning, at Georgia Tech, with a GPA of 3.81. 
 
 My research centers on unconscious cognitive and affective processes, with a particular focus on implicit emotion regulation, the neural dynamics of mind-wandering, and intuitive problem solving. I leverage computational modeling to decode these latent states from behavioral and neurophysiological data. Additionally, my work extends to mental health–related mechanisms, including dysregulated emotional processes and the effects of learned helplessness on psychological flexibility.
+
 ---
 
 <br>
