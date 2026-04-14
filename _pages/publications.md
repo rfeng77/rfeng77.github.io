@@ -101,6 +101,12 @@ Lee, P., Chen, S., Yu, Y., Chen, Y., Feng, R., & Fan, X. (2019).
 
 ## 📖 Manuscripts under Review / Revision  
 <div class="pub-card">
+Feng, R., Yin, S., Jahanzad, S., Hao, X., Apt, L., & Verhaeghen, P.
+<span class="pub-title">An Experimental Investigation of Implicit Emotional Counter-Regulation and Its Neural Correlates Using a Priming Identity Task. </span>  
+(in revision at <span class="pub-journal">Cognitive, Affective & Behavioral Neuroscience</span>)
+</div>
+
+<div class="pub-card">
 Hao, X., Feng, R., Verhaeghen, P., & Turnbull, A.
 <span class="pub-title">Mind-body interventions Induced Brain Changes in the Aging Population: A
 Systematic Review of Structural and Functional Neuroimaging Findings. </span>  
@@ -123,6 +129,11 @@ Feng, R., Hua, Z., Chen, P., Lin, T., & Veldhuis, C.
 ---
 
 ## 🎙️ Conference Presentations / Posters  
+<div class="pub-card">
+Feng, R., Yin, S., Jahanzad, S., Hao, X., Apt, L., & Verhaeghen, P. (2026).  
+<span class="pub-title">An Experimental Investigation of Implicit Emotional Counter-Regulation and Its Neural Correlates Using a Priming Identity Task.</span>  
+Social & Affective Neuroscience Society (SANS), San Diego, USA.
+</div>
 
 <div class="pub-card">
 Hao, X., Feng, R., Verhaeghen, P., & Turnbull, A. (2025).  
