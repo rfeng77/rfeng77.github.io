@@ -26,7 +26,7 @@ Instead of designing AI as a black-box risk score or another alert system, this 
 
 ## Early Findings
 
-We conducted one semi-structured interview with **ten ICU/critical care clinicians** and collected **67 questionnaire responses** from clinicians and healthcare workers.
+We conducted one semi-structured interview with **3 ICU/critical care clinicians** and collected **67 questionnaire responses** from clinicians and healthcare workers.
 
 The early findings suggest that the main problem is not simply a lack of clinical data, but the difficulty of finding and connecting relevant information across different systems. Clinicians wanted AI to support **information synthesis**, not autonomous decision-making.
 
@@ -112,4 +112,8 @@ The current prototype presents ICU patients in a clinician-facing dashboard. The
 
 ## Current Takeaway
 
+## Current Takeaway
+
 Our early results suggest that useful clinical AI should not only predict deterioration. It should help clinicians quickly understand the patient story, connect scattered information, explain uncertainty, and provide evidence-backed support within existing ICU workflows.
+
+This project is still ongoing, and we are continuing to conduct clinician interviews to refine the system requirements and interface design. After the front-end functions are finalized, the next step is to connect the prototype with simulated ICU patient trajectories built from eICU data. This backend pipeline will support data analysis, short-term risk monitoring, and a clinician-in-the-loop interaction loop, which we will use to evaluate the usability and workflow fit of the full system.
