@@ -4,7 +4,7 @@ title: "Adaptation and Validation of the Mindful Student Questionnaire (MSQ) in 
 card_title: "Psychometric Project"
 description: "A psychometric validation of a mindfulness measure among 2,910 Chinese adolescents"
 img: assets/img/psychometric.png
-importance: 1
+importance: 6
 category: work
 related_publications: false   
 bibliography: false      
