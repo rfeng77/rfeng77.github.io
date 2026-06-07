@@ -12,12 +12,6 @@ published: true
 
 ICU clinicians often need to make fast decisions from fragmented information across EHR notes, vital signs, lab results, imaging reports, medication records, and handoff communication. This project explores how an AI-supported clinical workspace can help clinicians synthesize patient information, monitor short-term deterioration risk, and understand model uncertainty without replacing clinical judgment.
 
-<p>
-  <a class="btn btn-outline-primary" href="https://clinical-system-client.vercel.app/" target="_blank">
-    View Live Web Prototype
-  </a>
-</p>
-
 ---
 
 ## Research Focus
