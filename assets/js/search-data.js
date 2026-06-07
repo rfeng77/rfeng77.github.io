@@ -68,6 +68,11 @@ ninja.data = [{
           description: "A systematic review and meta-analysis of neuroimaging evidence on meditation, Tai Chi, and yoga in older adults, revealing brain–behavior coupling that supports cognitive and emotional resilience.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-icu-ai-clinical-decision-support-system",
+          title: 'ICU_AI Clinical Decision Support System',
+          description: "Designing an uncertainty-aware AI workspace for ICU deterioration monitoring",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
