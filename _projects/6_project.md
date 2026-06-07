@@ -2,7 +2,7 @@
 layout: page
 title: ICU_AI Clinical Decision Support System
 description: Designing an uncertainty-aware AI workspace for ICU deterioration monitoring
-img: assets/img/icu-ai-dashboard-main.png
+img: assets/img/icu-ai-assistant-summary.png
 importance: 1
 category: research
 published: true
@@ -105,25 +105,30 @@ Based on these findings, we designed ICU_AI as a **low-burden clinical assistant
 
 The current prototype presents ICU patients in a clinician-facing dashboard. The left panel supports patient prioritization, the central workspace shows patient status, risk trajectory, vitals, labs, and uncertainty explanations, and the right panel provides AI-assisted summaries and follow-up suggestions.
 
+<p>
+
+  <a class="btn btn-outline-primary" href="https://clinical-system-client.vercel.app/" target="_blank">
+
+    View Live Web Prototype
+
+  </a>
+
+</p>
+
 <div class="row mt-4">
+
     <div class="col-sm-12 mt-3 mt-md-0">
+
         {% include figure.liquid loading="eager" path="assets/img/icu-ai-dashboard-main.png" title="ICU_AI dashboard main view" class="img-fluid rounded z-depth-1" %}
+
     </div>
-</div>
-<div class="caption">
-    Main dashboard view of the ICU_AI web prototype.
+
 </div>
 
-<div class="row justify-content-sm-center mt-4">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/icu-ai-risk-overview.png" title="Risk and uncertainty overview" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/icu-ai-assistant-summary.png" title="AI-assisted clinical summary" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
 <div class="caption">
-    Risk, uncertainty, and AI-assisted clinical summary components.
+
+    Main dashboard view of the ICU_AI web prototype.
+
 </div>
 
 ---
