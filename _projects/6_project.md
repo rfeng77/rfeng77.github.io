@@ -4,7 +4,7 @@ title: ICU_AI Clinical Decision Support System
 description: Designing an uncertainty-aware AI workspace for ICU deterioration monitoring
 img: assets/img/icu-ai-assistant-summary.png
 importance: 1
-category: work
+category: research
 published: true
 ---
 
