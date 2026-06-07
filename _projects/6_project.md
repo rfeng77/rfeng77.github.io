@@ -112,8 +112,6 @@ The current prototype presents ICU patients in a clinician-facing dashboard. The
 
 ## Current Takeaway
 
-## Current Takeaway
-
 Our early results suggest that useful clinical AI should not only predict deterioration. It should help clinicians quickly understand the patient story, connect scattered information, explain uncertainty, and provide evidence-backed support within existing ICU workflows.
 
 This project is still ongoing, and we are continuing to conduct clinician interviews to refine the system requirements and interface design. After the front-end functions are finalized, the next step is to connect the prototype with simulated ICU patient trajectories built from eICU data. This backend pipeline will support data analysis, short-term risk monitoring, and a clinician-in-the-loop interaction loop, which we will use to evaluate the usability and workflow fit of the full system.
