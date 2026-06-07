@@ -26,7 +26,7 @@ Instead of designing AI as a black-box risk score or another alert system, this 
 
 ## Early Findings
 
-We conducted one semi-structured interview with an ICU/critical care clinician and collected **67 questionnaire responses** from clinicians and healthcare workers.
+We conducted one semi-structured interview with **ten ICU/critical care clinicians** and collected **67 questionnaire responses** from clinicians and healthcare workers.
 
 The early findings suggest that the main problem is not simply a lack of clinical data, but the difficulty of finding and connecting relevant information across different systems. Clinicians wanted AI to support **information synthesis**, not autonomous decision-making.
 
