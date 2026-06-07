@@ -36,16 +36,9 @@ We conducted one semi-structured interview with an ICU/critical care clinician a
 
 The early findings suggest that the main problem is not simply a lack of clinical data, but the difficulty of finding and connecting relevant information across different systems. Clinicians wanted AI to support **information synthesis**, not autonomous decision-making.
 
-Across the interview and survey, clinicians emphasized the need for:
+Across the interview and survey, clinicians emphasized the need for faster access to key patient information, clear summaries of recent history and notes, monitoring of subtle deterioration, short-term risk prediction with supporting reasons, traceable evidence sources, and uncertainty explanations when data are missing, unstable, or conflicting.
 
-- Faster access to key patient information
-- Clear summaries of recent patient history and clinical notes
-- Monitoring of subtle deterioration before a patient becomes critical
-- Short-term risk prediction with clear supporting reasons
-- Traceable evidence sources rather than unexplained AI output
-- Uncertainty explanations, especially when data are missing, unstable, or conflicting
-
-The clinician interview also suggested that a high-density, flowsheet-like interface with concise summaries and key numerical trends may be more useful than large visual charts alone. Basically, clinicians do not need a pretty dashboard that hides the actual information. They need something fast, dense, and clinically useful.
+The clinician interview also suggested that a high-density, flowsheet-like interface with concise summaries and key numerical trends may be more useful than large visual charts alone. This finding shaped our design direction toward a dense, clinically useful workspace rather than a purely visual dashboard.
 
 ---
 
@@ -54,49 +47,49 @@ The clinician interview also suggested that a high-density, flowsheet-like inter
 Based on these findings, we designed ICU_AI as a **low-burden clinical assistant** with four main design goals:
 
 <div class="row mt-4">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Integrated Patient Overview</h5>
-                <p class="card-text">
-                    Combine vital signs, lab results, medication history, clinical summaries, and recent trajectory changes in one workspace.
-                </p>
-            </div>
-        </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Integrated Patient Overview</h5>
+        <p class="card-text">
+          Combine vital signs, lab results, medication history, clinical summaries, and recent trajectory changes in one workspace.
+        </p>
+      </div>
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Short-Term Risk Monitoring</h5>
-                <p class="card-text">
-                    Show deterioration risk across clinically meaningful time windows, such as 1-hour, 6-hour, 12-hour, and 24-hour horizons.
-                </p>
-            </div>
-        </div>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Short-Term Risk Monitoring</h5>
+        <p class="card-text">
+          Show deterioration risk across clinically meaningful time windows, such as 1-hour, 6-hour, 12-hour, and 24-hour horizons.
+        </p>
+      </div>
     </div>
+  </div>
 </div>
 
 <div class="row mt-3">
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Explainable Uncertainty</h5>
-                <p class="card-text">
-                    Make uncertainty visible by showing missing information, unstable trends, conflicting indicators, or possible artifacts.
-                </p>
-            </div>
-        </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Explainable Uncertainty</h5>
+        <p class="card-text">
+          Make uncertainty visible by showing missing information, unstable trends, conflicting indicators, or possible artifacts.
+        </p>
+      </div>
     </div>
-    <div class="col-sm-6 mt-3 mt-md-0">
-        <div class="card h-100">
-            <div class="card-body">
-                <h5 class="card-title">Evidence-Based AI Support</h5>
-                <p class="card-text">
-                    Provide concise AI summaries, follow-up suggestions, and traceable supporting evidence while keeping clinicians in control.
-                </p>
-            </div>
-        </div>
+  </div>
+  <div class="col-sm-6 mt-3 mt-md-0">
+    <div class="card h-100">
+      <div class="card-body">
+        <h5 class="card-title">Evidence-Based AI Support</h5>
+        <p class="card-text">
+          Provide concise AI summaries, follow-up suggestions, and traceable supporting evidence while keeping clinicians in control.
+        </p>
+      </div>
     </div>
+  </div>
 </div>
 
 ---
@@ -106,29 +99,19 @@ Based on these findings, we designed ICU_AI as a **low-burden clinical assistant
 The current prototype presents ICU patients in a clinician-facing dashboard. The left panel supports patient prioritization, the central workspace shows patient status, risk trajectory, vitals, labs, and uncertainty explanations, and the right panel provides AI-assisted summaries and follow-up suggestions.
 
 <p>
-
   <a class="btn btn-outline-primary" href="https://clinical-system-client.vercel.app/" target="_blank">
-
     View Live Web Prototype
-
   </a>
-
 </p>
 
 <div class="row mt-4">
-
-    <div class="col-sm-12 mt-3 mt-md-0">
-
-        {% include figure.liquid loading="eager" path="assets/img/icu-ai-dashboard-main.png" title="ICU_AI dashboard main view" class="img-fluid rounded z-depth-1" %}
-
-    </div>
-
+  <div class="col-sm-12 mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/icu-ai-assistant-summary.png" title="ICU_AI dashboard main view" class="img-fluid rounded z-depth-1" %}
+  </div>
 </div>
 
 <div class="caption">
-
-    Main dashboard view of the ICU_AI web prototype.
-
+  Main dashboard view of the ICU_AI web prototype.
 </div>
 
 ---
